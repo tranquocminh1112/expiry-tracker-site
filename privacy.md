@@ -1,5 +1,5 @@
 ---
-title: Chính sách quyền riêng tư — Nhắc hạn đồ ăn
+title: Chính sách quyền riêng tư
 ---
 
 # Chính sách quyền riêng tư — Nhắc hạn đồ ăn

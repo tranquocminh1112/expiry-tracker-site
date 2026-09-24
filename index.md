@@ -1,5 +1,5 @@
 ---
-title: Nhắc hạn đồ ăn — Hỗ trợ
+title: Hỗ trợ
 ---
 
 # Nhắc hạn đồ ăn
@@ -27,7 +27,7 @@ Cài đặt → "Mời người nhà dùng chung" → gửi đường link qua T
 Bấm vào tên danh sách ở đầu màn hình ("Nhà mình ⌄") để chuyển danh sách hoặc tạo danh sách mới. Mỗi danh sách chia sẻ riêng với những người khác nhau.
 
 **Dữ liệu của tôi nằm ở đâu?**
-Trên iPhone và trong iCloud của chính bạn. Xem [Chính sách quyền riêng tư](privacy.html).
+Trên iPhone và trong iCloud của chính bạn. Xem [Chính sách quyền riêng tư](privacy).
 
 ## Liên hệ
 
