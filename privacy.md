@@ -11,14 +11,14 @@ _Cập nhật: 24/9/2026_
 ## Dữ liệu ứng dụng lưu
 
 - Tên món, số lượng, đơn vị, hạn sử dụng, ghi chú, lịch sử sử dụng.
-- Tên bạn nhập (không bắt buộc), chỉ để hiện cạnh món bạn thêm khi dùng chung danh sách.
+- Tên hoặc biệt danh bạn nhập, để hiện cạnh món bạn thêm hay dùng khi dùng chung danh sách. Khi bạn mời người khác, tên này đi kèm lời mời để họ biết ai mời.
 - Cài đặt nhắc (giờ nhắc) lưu trên máy của bạn.
 
 ## Dữ liệu được lưu ở đâu
 
 - Trên iPhone của bạn, và trong **iCloud của chính bạn** (Apple CloudKit) để đồng bộ giữa các thiết bị. Nhà phát triển không có quyền truy cập vào iCloud của bạn.
 - Tên món, ghi chú, tên danh sách và tên người thêm được **mã hoá** trên máy chủ iCloud bằng khoá thuộc tài khoản của bạn.
-- Khi bạn **mời người khác dùng chung** một danh sách, những người được mời xem và sửa được mọi món trong danh sách đó. Bạn có thể ngừng chia sẻ hoặc gỡ người khác bất cứ lúc nào.
+- Khi bạn **mời người khác dùng chung** một danh sách, bạn chọn cho từng người: **được sửa** hoặc **chỉ xem**. Họ thấy mọi món trong danh sách đó và tên của những người đã thêm hay dùng món. Bạn có thể ngừng chia sẻ hoặc gỡ người khác bất cứ lúc nào.
 
 ## Những gì ứng dụng không làm
 
@@ -50,9 +50,9 @@ _Updated: 24 September 2026_
 
 **Nhắc hạn đồ ăn** ("the app") helps you record food expiry dates and reminds you before they expire. It is designed so that **the developer does not collect and cannot see your data**.
 
-**What the app stores:** item names, quantities, units, expiry dates, notes, usage history; an optional name shown next to items you add in shared lists; reminder settings (stored on your device).
+**What the app stores:** item names, quantities, units, expiry dates, notes, usage history; a name or nickname you enter, shown next to items you add or use in shared lists and included in invitations you send; reminder settings (stored on your device).
 
-**Where it is stored:** on your iPhone and in **your own iCloud account** (Apple CloudKit) for syncing between your devices. The developer has no access to your iCloud. Item names, notes, list names and author names are **encrypted** on iCloud servers with keys belonging to your account. When you **share a list**, invited people can view and edit everything in that list; you can stop sharing or remove people at any time.
+**Where it is stored:** on your iPhone and in **your own iCloud account** (Apple CloudKit) for syncing between your devices. The developer has no access to your iCloud. Item names, notes, list names and author names are **encrypted** on iCloud servers with keys belonging to your account. When you **share a list**, you choose for each person whether they can **edit** or only **view** it; they see everything in that list and the names of people who added or used items; you can stop sharing or remove people at any time.
 
 **What the app does not do:** no separate accounts or sign-in beyond iCloud; no ads, no tracking, no third-party analytics or data collection; no selling or sharing of data.
 
