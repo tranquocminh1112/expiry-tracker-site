@@ -4,7 +4,7 @@ title: Nhắc hạn đồ ăn — Hỗ trợ
 
 # Nhắc hạn đồ ăn
 
-Ghi lại hạn sử dụng đồ ăn trong nhà. App nhắc bạn trước 30 ngày, 7 ngày và đúng ngày hết hạn, và dùng chung được với cả nhà qua iCloud.
+Ghi lại hạn sử dụng đồ ăn trong nhà. App nhắc từ 12 tháng trước để kịp dùng dần, nhắc mỗi ngày trong tuần cuối, gửi bản tin mỗi tuần, và dùng chung được với cả nhà qua iCloud.
 
 ## Câu hỏi thường gặp
 
