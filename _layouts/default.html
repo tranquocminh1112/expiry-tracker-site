@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <!-- The Primer theme's layout without its site-title header (it repeated each page's own title). -->
-<html lang="{{ site.lang | default: "vi" }}">
+<!-- Localized pages set `lang` and `page_id` (home/privacy) in front matter; see site/_data/languages.yml. -->
+{% assign page_lang = page.lang | default: site.lang | default: "vi" %}
+{% assign page_id = page.page_id | default: "home" %}
+{% assign site_base = "https://expiry-tracker.minhtran.io.vn" %}
+<html lang="{{ page_lang }}">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,9 +12,25 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon.png" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% for l in site.data.languages %}
+    <link rel="alternate" hreflang="{{ l.code }}" href="{{ site_base }}{{ l[page_id] }}">
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ site_base }}{{ site.data.languages[0][page_id] }}">
+    <style>
+      .lang-switcher { margin-bottom: 1.5em; font-size: 0.9em; }
+      .lang-switcher span, .lang-switcher a { margin-right: 0.6em; }
+      .lang-switcher .lang-current { font-weight: 600; }
+    </style>
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
+      <nav class="lang-switcher" aria-label="Language / Ngôn ngữ">
+        {% for l in site.data.languages %}
+          {% if l.code == page_lang %}<span class="lang-current">{{ l.name }}</span>
+          {% else %}<a href="{{ l[page_id] | relative_url }}" hreflang="{{ l.code }}">{{ l.name }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
       {{ content }}
     </div>
   </body>

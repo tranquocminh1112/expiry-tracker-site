@@ -1,5 +1,9 @@
 ---
 title: Hỗ trợ
+layout: default
+lang: vi
+page_id: home
+permalink: /
 ---
 
 # Nhắc hạn đồ ăn

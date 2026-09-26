@@ -1,0 +1,35 @@
+# Languages available on the support/privacy site.
+# `home` / `privacy` are the page permalinks for each language.
+# Keep in sync with page front matter (`lang`, `page_id`) and site/_layouts/default.html.
+- code: vi
+  name: Tiếng Việt
+  home: /
+  privacy: /privacy
+- code: en
+  name: English
+  home: /en/
+  privacy: /en/privacy
+- code: ru
+  name: Русский
+  home: /ru/
+  privacy: /ru/privacy
+- code: fr
+  name: Français
+  home: /fr/
+  privacy: /fr/privacy
+- code: zh-Hans
+  name: 简体中文
+  home: /zh-hans/
+  privacy: /zh-hans/privacy
+- code: de
+  name: Deutsch
+  home: /de/
+  privacy: /de/privacy
+- code: ja
+  name: 日本語
+  home: /ja/
+  privacy: /ja/privacy
+- code: ko
+  name: 한국어
+  home: /ko/
+  privacy: /ko/privacy

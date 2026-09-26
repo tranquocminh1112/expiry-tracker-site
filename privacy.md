@@ -1,5 +1,9 @@
 ---
 title: Chính sách quyền riêng tư
+layout: default
+lang: vi
+page_id: privacy
+permalink: /privacy
 ---
 
 # Chính sách quyền riêng tư — Nhắc hạn đồ ăn
@@ -26,13 +30,17 @@ _Cập nhật: 24/9/2026_
 - Không quảng cáo, không theo dõi (tracking), không có công cụ phân tích hay thu thập dữ liệu của bên thứ ba.
 - Không bán hay chia sẻ dữ liệu với bất kỳ ai.
 
+## Báo lỗi
+
+Khi bạn bấm **Gửi báo lỗi**, ứng dụng mở một email soạn sẵn gửi tới nhà phát triển, gồm phiên bản ứng dụng và iOS, đời máy, trạng thái iCloud và thông báo, **số lượng** danh sách và món, cùng mã lỗi kỹ thuật gần đây. Email không có tên món, ghi chú hay tên người. Bạn xem và sửa được nội dung, và email chỉ được gửi khi bạn bấm Gửi.
+
 ## Thông báo
 
 Thông báo nhắc hạn được tạo **ngay trên máy** của bạn (local notifications), không đi qua máy chủ của nhà phát triển.
 
 ## Xoá dữ liệu
 
-Xoá món hoặc danh sách trong ứng dụng, hoặc xoá ứng dụng. Dữ liệu trên iCloud có thể xoá trong **Cài đặt → [tên bạn] → iCloud → Quản lý dung lượng**.
+Vào **Cài đặt → Xoá toàn bộ dữ liệu** để xoá mọi danh sách, món và lịch sử trên máy và trong iCloud của bạn (danh sách bạn chia sẻ cũng bị xoá với người được mời). Bạn cũng có thể xoá từng món, từng danh sách, hoặc xoá ứng dụng. Dữ liệu trên iCloud có thể xoá trong **Cài đặt → [tên bạn] → iCloud → Quản lý dung lượng**.
 
 ## Trẻ em
 
@@ -44,22 +52,4 @@ tranquocminh1112@gmail.com
 
 ---
 
-# Privacy Policy — Nhắc hạn đồ ăn
-
-_Updated: 24 September 2026_
-
-**Nhắc hạn đồ ăn** ("the app") helps you record food expiry dates and reminds you before they expire. It is designed so that **the developer does not collect and cannot see your data**.
-
-**What the app stores:** item names, quantities, units, expiry dates, notes, usage history; a name or nickname you enter, shown next to items you add or use in shared lists and included in invitations you send; reminder settings (stored on your device).
-
-**Where it is stored:** on your iPhone and in **your own iCloud account** (Apple CloudKit) for syncing between your devices. The developer has no access to your iCloud. Item names, notes, list names and author names are **encrypted** on iCloud servers with keys belonging to your account. When you **share a list**, you choose for each person whether they can **edit** or only **view** it; they see everything in that list and the names of people who added or used items; you can stop sharing or remove people at any time.
-
-**What the app does not do:** no separate accounts or sign-in beyond iCloud; no ads, no tracking, no third-party analytics or data collection; no selling or sharing of data.
-
-**Notifications** are scheduled locally on your device and do not pass through any developer server.
-
-**Deleting data:** delete items or lists in the app, or delete the app. iCloud data can be removed in Settings → [your name] → iCloud → Manage Storage.
-
-**Children:** the app is not directed at children under 13 and does not knowingly collect their information.
-
-**Contact:** tranquocminh1112@gmail.com
+_Bản dịch các ngôn ngữ khác — xem bộ chọn ngôn ngữ ở đầu trang. Bản tiếng Việt này là bản chính thức._
