@@ -8,7 +8,7 @@ permalink: /fr/privacy
 
 # Politique de confidentialité — Nhắc hạn đồ ăn
 
-_Mise à jour : 24 septembre 2026_
+_Mise à jour : 26 septembre 2026_
 
 > Cette page est une traduction fournie à titre de référence uniquement. **La [version vietnamienne](/privacy) fait foi et a valeur légale.** En cas de divergence, le texte vietnamien prévaut.
 
@@ -35,6 +35,12 @@ _Mise à jour : 24 septembre 2026_
 ## Signalement de bug
 
 En appuyant sur **« Envoyer un rapport de bug »**, l'application ouvre un e-mail prérempli à destination du développeur contenant les versions de l'application et d'iOS, le modèle de l'appareil, l'état d'iCloud et des notifications, le **nombre** de listes et d'articles, ainsi que des codes d'erreur techniques récents. L'e-mail ne contient aucun nom d'article, note ou nom de personne. Vous pouvez le relire et le modifier ; il n'est envoyé que lorsque vous appuyez sur Envoyer.
+
+Il indique aussi votre région, votre fuseau horaire et la langue de l’app, pour savoir si un problème vient du format de date ou d’une traduction.
+
+## Export des données
+
+Lorsque vous touchez **Réglages → Exporter les données (CSV)**, l’app crée sur votre appareil un fichier CSV avec tous les articles que vous voyez : nom de la liste, nom de l’article, quantité, unité, date de péremption, note, **le nom de la personne qui l’a ajouté** et la date d’ajout. Le fichier ne quitte votre appareil que si vous choisissez où l’envoyer ou l’enregistrer : réfléchissez avant de partager le fichier d’une liste partagée.
 
 ## Notifications
 

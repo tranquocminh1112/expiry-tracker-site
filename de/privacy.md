@@ -8,7 +8,7 @@ permalink: /de/privacy
 
 # Datenschutzerklärung — Nhắc hạn đồ ăn
 
-_Aktualisiert: 24. September 2026_
+_Aktualisiert: 26. September 2026_
 
 > Diese Seite ist eine Übersetzung, die nur als Referenz dient. **Die [vietnamesische Version](/privacy) ist die verbindliche, rechtsgültige Fassung.** Bei Widersprüchen gilt der vietnamesische Text.
 
@@ -35,6 +35,12 @@ _Aktualisiert: 24. September 2026_
 ## Fehlerberichte
 
 Wenn Sie auf **„Fehlerbericht senden“** tippen, öffnet die App eine vorausgefüllte E-Mail an den Entwickler mit App- und iOS-Version, Gerätemodell, iCloud- und Benachrichtigungsstatus, der **Anzahl** der Listen und Produkte sowie aktuellen technischen Fehlercodes. Die E-Mail enthält keine Produktnamen, Notizen oder Personennamen. Sie können sie prüfen und bearbeiten; sie wird erst gesendet, wenn Sie auf Senden tippen.
+
+Außerdem enthält sie Region, Zeitzone und die Sprache der App, damit erkennbar ist, ob ein Problem mit Datumsformaten oder einer Übersetzung zusammenhängt.
+
+## Datenexport
+
+Wenn du **Einstellungen → Daten exportieren (CSV)** wählst, erstellt die App auf deinem Gerät eine CSV-Datei mit allen Einträgen, die du sehen kannst: Listenname, Artikelname, Menge, Einheit, Ablaufdatum, Notiz, **der Name der Person, die ihn hinzugefügt hat**, und das Datum. Die Datei verlässt dein Gerät nur, wenn du selbst wählst, wohin sie gesendet oder gespeichert wird. Überlege daher, bevor du die Datei einer geteilten Liste weitergibst.
 
 ## Benachrichtigungen
 

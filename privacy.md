@@ -8,7 +8,7 @@ permalink: /privacy
 
 # Chính sách quyền riêng tư — Nhắc hạn đồ ăn
 
-_Cập nhật: 24/9/2026_
+_Cập nhật: 26/9/2026_
 
 **Nhắc hạn đồ ăn** ("ứng dụng") giúp bạn ghi lại hạn sử dụng đồ ăn và nhắc bạn trước khi hết hạn. Ứng dụng được thiết kế để **nhà phát triển không thu thập và không xem được dữ liệu của bạn**.
 
@@ -33,6 +33,12 @@ _Cập nhật: 24/9/2026_
 ## Báo lỗi
 
 Khi bạn bấm **Gửi báo lỗi**, ứng dụng mở một email soạn sẵn gửi tới nhà phát triển, gồm phiên bản ứng dụng và iOS, đời máy, trạng thái iCloud và thông báo, **số lượng** danh sách và món, cùng mã lỗi kỹ thuật gần đây. Email không có tên món, ghi chú hay tên người. Bạn xem và sửa được nội dung, và email chỉ được gửi khi bạn bấm Gửi.
+
+Email cũng ghi vùng, múi giờ và ngôn ngữ của ứng dụng, để biết lỗi có liên quan tới định dạng ngày hay bản dịch không.
+
+## Xuất dữ liệu
+
+Khi bạn bấm **Cài đặt → Xuất dữ liệu (CSV)**, ứng dụng tạo một tệp CSV ngay trên máy, gồm mọi món bạn thấy: tên danh sách, tên món, số lượng, đơn vị, hạn sử dụng, ghi chú, **tên người thêm món** và ngày thêm. Tệp chỉ rời khỏi máy khi bạn tự chọn nơi gửi hoặc lưu, nên hãy cân nhắc trước khi chia sẻ tệp của một danh sách dùng chung.
 
 ## Thông báo
 

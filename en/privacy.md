@@ -8,7 +8,7 @@ permalink: /en/privacy
 
 # Privacy Policy — Nhắc hạn đồ ăn
 
-_Updated: 24 September 2026_
+_Updated: 26 September 2026_
 
 > This page is a translation for reference only. **The [Vietnamese version](/privacy) is the authoritative, legally binding version.** If anything here conflicts with the Vietnamese text, the Vietnamese text prevails.
 
@@ -35,6 +35,12 @@ _Updated: 24 September 2026_
 ## Bug reports
 
 When you tap **Send bug report**, the app opens a prefilled email to the developer containing the app and iOS versions, device model, iCloud and notification status, the **number** of lists and items, and recent technical error codes. The email contains no item names, notes or people's names. You can review and edit it, and it is only sent when you tap Send.
+
+It also includes your region, time zone and the app's language, to tell whether a problem is related to date formats or a translation.
+
+## Data export
+
+When you tap **Settings → Export Data (CSV)**, the app creates a CSV file on your device with every item you can see: list name, item name, quantity, unit, expiry date, note, **the name of who added it** and the date added. The file only leaves your device when you choose where to send or save it, so think before sharing the file of a shared list.
 
 ## Notifications
 
