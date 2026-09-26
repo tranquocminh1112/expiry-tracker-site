@@ -6,7 +6,7 @@ page_id: home
 permalink: /en/
 ---
 
-# Nhắc hạn đồ ăn (Food Expiry Reminder)
+# Nhắc hạn đồ ăn (Food Expiration Reminder)
 
 Track the expiry dates of food at home. The app reminds you monthly starting 12 months before expiry, daily in the final week, sends a weekly digest, and can be shared with your household via iCloud.
 
