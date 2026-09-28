@@ -10,7 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Safari on iPhone shows a Get/Open banner for the app (same id as AppLinks.writeReview). -->
     <meta name="apple-itunes-app" content="app-id=6815566054">
-    {% seo %}
+    {% assign lang_info = site.data.languages | where: "code", page_lang | first %}
+    {% assign full_title = page.title | append: " | " | append: lang_info.app_name %}
+    {% assign page_url = site_base | append: page.url %}
+    <!-- Per-language title and meta (jekyll-seo-tag would use the Vietnamese site title everywhere). -->
+    <title>{{ full_title | escape }}</title>
+    <meta name="description" content="{{ lang_info.description | escape }}">
+    <link rel="canonical" href="{{ page_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ lang_info.app_name | escape }}">
+    <meta property="og:title" content="{{ full_title | escape }}">
+    <meta property="og:description" content="{{ lang_info.description | escape }}">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:locale" content="{{ page_lang | replace: "-", "_" }}">
+    <meta property="og:image" content="{{ site_base }}/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon.png" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
