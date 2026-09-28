@@ -42,13 +42,22 @@ Faites glisser l'article vers la gauche ou la droite, ou **appuyez longuement** 
 Appuyez sur « Annuler » juste après, ou ouvrez l'article → Historique → Annuler.
 
 **Peut-on partager la liste avec son foyer ?**
-Réglages → « Inviter des membres du foyer » → envoyez le lien par Messages ou Zalo. La personne invitée doit avoir un iPhone connecté à iCloud. Pour chaque personne, choisissez **Peut modifier** ou **Lecture seule**. Les membres en lecture seule ne peuvent rien modifier mais continuent de recevoir les rappels.
+Réglages → « Inviter des membres du foyer » → envoyez le lien par Messages ou WhatsApp. La personne invitée doit avoir un iPhone connecté à iCloud. Pour chaque personne, choisissez **Peut modifier** ou **Lecture seule**. Les membres en lecture seule ne peuvent rien modifier mais continuent de recevoir les rappels.
 
 **Peut-on avoir plusieurs listes ?**
 Appuyez sur le nom de la liste en haut de l'écran (« Maison ⌄ ») pour changer de liste ou en créer une nouvelle. Chaque liste est partagée séparément avec des personnes différentes.
 
 **Où sont stockées mes données ?**
 Sur votre iPhone et dans votre propre compte iCloud. Voir la [Politique de confidentialité](privacy).
+
+## Guides pour mieux gérer les aliments
+
+- [DLC et DDM : comment lire les dates sur l'étiquette](/fr/guides/dlc-ddm-difference)
+- [Combien de temps se conservent les produits une fois ouverts ?](/fr/guides/conservation-apres-ouverture)
+- [Organiser son frigo et ses placards pour moins gaspiller](/fr/guides/ranger-frigo-anti-gaspillage)
+- [Peut-on manger un produit après la date de péremption ?](/fr/guides/manger-apres-date-de-peremption)
+
+[Voir tous les guides →](/fr/guides/)
 
 ## Contact
 

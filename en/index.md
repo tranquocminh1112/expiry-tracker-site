@@ -42,13 +42,22 @@ Swipe an item left or right, or **long-press** it to see every action: Edit, Use
 Tap "Undo" right after, or open the item → History → Undo.
 
 **Can I share the list with my household?**
-Settings → "Invite household members" → send the link via Messages or Zalo. The invitee needs an iPhone signed in to iCloud. For each person you choose **Can edit** or **View only**. View-only members can't change anything but still get reminders.
+Settings → "Invite household members" → send the link via Messages or WhatsApp. The invitee needs an iPhone signed in to iCloud. For each person you choose **Can edit** or **View only**. View-only members can't change anything but still get reminders.
 
 **Can I have more than one list?**
 Tap the list name at the top of the screen ("Home ⌄") to switch lists or create a new one. Each list is shared separately with different people.
 
 **Where is my data stored?**
 On your iPhone and in your own iCloud account. See the [Privacy Policy](privacy).
+
+## Guides to food dates and storage
+
+- [Best before vs use by vs sell by: how to read food date labels](/en/guides/best-before-vs-use-by-vs-sell-by)
+- [How long do opened pantry and fridge staples last?](/en/guides/how-long-do-opened-foods-last)
+- [How to organize your fridge and pantry to waste less food](/en/guides/organize-fridge-pantry-reduce-food-waste)
+- [Is it safe to eat food past its expiration date?](/en/guides/is-it-safe-to-eat-food-past-its-date)
+
+[All guides](/en/guides/)
 
 ## Contact
 

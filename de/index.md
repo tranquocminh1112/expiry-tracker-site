@@ -42,13 +42,22 @@ Wischen Sie das Produkt nach links oder rechts, oder halten Sie es **lange gedr�
 Tippen Sie sofort danach auf „Rückgängig“, oder öffnen Sie das Produkt → Verlauf → Rückgängig.
 
 **Kann ich die Liste mit meinem Haushalt teilen?**
-Einstellungen → „Haushaltsmitglieder einladen“ → Link per Nachrichten oder Zalo senden. Die eingeladene Person benötigt ein iPhone, das bei iCloud angemeldet ist. Für jede Person wählen Sie **Kann bearbeiten** oder **Nur ansehen**. Personen mit Nur-Ansehen-Rechten können nichts ändern, erhalten aber weiterhin Erinnerungen.
+Einstellungen → „Haushaltsmitglieder einladen“ → Link per Nachrichten oder WhatsApp senden. Die eingeladene Person benötigt ein iPhone, das bei iCloud angemeldet ist. Für jede Person wählen Sie **Kann bearbeiten** oder **Nur ansehen**. Personen mit Nur-Ansehen-Rechten können nichts ändern, erhalten aber weiterhin Erinnerungen.
 
 **Kann ich mehrere Listen haben?**
 Tippen Sie oben am Bildschirm auf den Listennamen („Zuhause ⌄“), um die Liste zu wechseln oder eine neue zu erstellen. Jede Liste wird separat mit unterschiedlichen Personen geteilt.
 
 **Wo werden meine Daten gespeichert?**
 Auf Ihrem iPhone und in Ihrem eigenen iCloud-Konto. Siehe [Datenschutzerklärung](privacy).
+
+## Ratgeber: Lebensmittel lagern und weniger wegwerfen
+
+- [MHD oder Verbrauchsdatum? So lesen Sie das Etikett](/de/guides/mhd-verbrauchsdatum-unterschied)
+- [Haltbarkeit nach dem Öffnen: Senf, Milch, Öl und Co.](/de/guides/haltbarkeit-nach-dem-oeffnen)
+- [Kühlschrank und Vorratsschrank richtig einräumen](/de/guides/kuehlschrank-richtig-einraeumen)
+- [Abgelaufene Lebensmittel: noch essen oder wegwerfen?](/de/guides/abgelaufene-lebensmittel-essen-oder-wegwerfen)
+
+[Alle Ratgeber ansehen →](/de/guides/)
 
 ## Kontakt
 
