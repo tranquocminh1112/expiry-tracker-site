@@ -6,13 +6,13 @@ page_id: privacy
 permalink: /de/privacy
 ---
 
-# Datenschutzerklärung — Nhắc hạn đồ ăn
+# Datenschutzerklärung — Erinnerung Verfallsdatum
 
 _Aktualisiert: 26. September 2026_
 
 > Diese Seite ist eine Übersetzung, die nur als Referenz dient. **Die [vietnamesische Version](/privacy) ist die verbindliche, rechtsgültige Fassung.** Bei Widersprüchen gilt der vietnamesische Text.
 
-**Nhắc hạn đồ ăn** („die App“) hilft Ihnen, Verfallsdaten von Lebensmitteln zu erfassen, und erinnert Sie rechtzeitig. Sie ist so konzipiert, dass **der Entwickler Ihre Daten weder sammelt noch einsehen kann**.
+**Erinnerung Verfallsdatum** („die App“) hilft Ihnen, Verfallsdaten von Lebensmitteln zu erfassen, und erinnert Sie rechtzeitig. Sie ist so konzipiert, dass **der Entwickler Ihre Daten weder sammelt noch einsehen kann**.
 
 ## Was die App speichert
 

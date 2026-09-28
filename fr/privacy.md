@@ -6,13 +6,13 @@ page_id: privacy
 permalink: /fr/privacy
 ---
 
-# Politique de confidentialité — Nhắc hạn đồ ăn
+# Politique de confidentialité — Rappel de péremption
 
 _Mise à jour : 26 septembre 2026_
 
 > Cette page est une traduction fournie à titre de référence uniquement. **La [version vietnamienne](/privacy) fait foi et a valeur légale.** En cas de divergence, le texte vietnamien prévaut.
 
-**Nhắc hạn đồ ăn** (« l'application ») vous aide à enregistrer les dates de péremption des aliments et vous rappelle avant qu'ils n'expirent. Elle est conçue de sorte que **le développeur ne collecte pas et ne peut pas voir vos données**.
+**Rappel de péremption** (« l'application ») vous aide à enregistrer les dates de péremption des aliments et vous rappelle avant qu'ils n'expirent. Elle est conçue de sorte que **le développeur ne collecte pas et ne peut pas voir vos données**.
 
 ## Ce que l'application stocke
 

@@ -6,13 +6,13 @@ page_id: privacy
 permalink: /en/privacy
 ---
 
-# Privacy Policy — Nhắc hạn đồ ăn
+# Privacy Policy — Use-By: Food Expiry Reminder
 
 _Updated: 26 September 2026_
 
 > This page is a translation for reference only. **The [Vietnamese version](/privacy) is the authoritative, legally binding version.** If anything here conflicts with the Vietnamese text, the Vietnamese text prevails.
 
-**Nhắc hạn đồ ăn** ("the app") helps you record food expiry dates and reminds you before they expire. It is designed so that **the developer does not collect and cannot see your data**.
+**Use-By: Food Expiry Reminder** ("the app") helps you record food expiry dates and reminds you before they expire. It is designed so that **the developer does not collect and cannot see your data**.
 
 ## What the app stores
 
