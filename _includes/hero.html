@@ -1,0 +1,23 @@
+{%- comment -%}
+Landing-page hero for the home pages. Copy lives in each page's front matter under `hero`:
+tagline (plain text, also used as the JSON-LD description), benefits (HTML allowed),
+badge_alt, screens_label, and screens (file, alt, caption). Images: assets/screens/<slug>/.
+Kept on few lines without blank lines so kramdown passes it through as one HTML block.
+{%- endcomment -%}
+{%- assign hero_lang = site.data.languages | where: "code", page.lang | first -%}
+{%- assign hero = page.hero -%}
+<section class="hero" aria-labelledby="hero-title">
+<h1 id="hero-title">{{ hero_lang.app_name }}</h1>
+<p class="hero-tagline">{{ hero.tagline }}</p>
+<ul class="hero-benefits">
+{%- for benefit in hero.benefits %}
+<li>{{ benefit }}</li>
+{%- endfor %}
+</ul>
+<p class="hero-cta"><a href="{{ site.data.app.app_store_url }}"><img src="{{ site.data.app.badge_base }}{{ hero_lang.badge }}" alt="{{ hero.badge_alt | escape }}" width="{{ hero_lang.badge_width }}" height="48"></a></p>
+<div class="hero-screens" role="group" aria-label="{{ hero.screens_label | escape }}">
+{%- for shot in hero.screens %}
+<figure><img src="{{ "/assets/screens/" | append: hero_lang.slug | append: "/" | append: shot.file | relative_url }}" alt="{{ shot.alt | escape }}" width="390" height="847" loading="lazy" decoding="async"><figcaption>{{ shot.caption }}</figcaption></figure>
+{%- endfor %}
+</div>
+</section>

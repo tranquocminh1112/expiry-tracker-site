@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://expiry-tracker.minhtran.io.vn/sitemap.xml

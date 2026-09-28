@@ -1,45 +1,87 @@
 <!DOCTYPE html>
 <!-- The Primer theme's layout without its site-title header (it repeated each page's own title). -->
 <!-- Localized pages set `lang` and `page_id` (home/privacy) in front matter; see site/_data/languages.yml. -->
+<!-- Other pages (e.g. articles, `page_id: article`) get no hreflang alternates and no language switcher. -->
 {% assign page_lang = page.lang | default: site.lang | default: "vi" %}
-{% assign page_id = page.page_id | default: "home" %}
+{% assign page_id = page.page_id | default: "" %}
 {% assign site_base = "https://expiry-tracker.minhtran.io.vn" %}
+{% if page_id == "home" or page_id == "privacy" %}{% assign is_localized = true %}{% else %}{% assign is_localized = false %}{% endif %}
 <html lang="{{ page_lang }}">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Safari on iPhone shows a Get/Open banner for the app (same id as AppLinks.writeReview). -->
-    <meta name="apple-itunes-app" content="app-id=6815566054">
+    <meta name="apple-itunes-app" content="app-id={{ site.data.app.app_store_id }}">
     {% assign lang_info = site.data.languages | where: "code", page_lang | first %}
     {% assign full_title = page.title | append: " | " | append: lang_info.app_name %}
     {% assign page_url = site_base | append: page.url %}
+    {% if lang_info.slug %}{% assign og_image = site_base | append: "/assets/og/" | append: lang_info.slug | append: ".png" %}{% else %}{% assign og_image = site_base | append: "/og-image.png" %}{% endif %}
     <!-- Per-language title and meta (jekyll-seo-tag would use the Vietnamese site title everywhere). -->
     <title>{{ full_title | escape }}</title>
-    <meta name="description" content="{{ lang_info.description | escape }}">
+    {% assign meta_description = page.description | default: lang_info.description %}
+    <meta name="description" content="{{ meta_description | escape }}">
     <link rel="canonical" href="{{ page_url }}">
-    <meta property="og:type" content="website">
+    <meta property="og:type" content="{% if page.page_id == "article" %}article{% else %}website{% endif %}">
     <meta property="og:site_name" content="{{ lang_info.app_name | escape }}">
     <meta property="og:title" content="{{ full_title | escape }}">
-    <meta property="og:description" content="{{ lang_info.description | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
     <meta property="og:url" content="{{ page_url }}">
     <meta property="og:locale" content="{{ page_lang | replace: "-", "_" }}">
-    <meta property="og:image" content="{{ site_base }}/og-image.png">
+    <meta property="og:image" content="{{ og_image }}">
+    {% if lang_info.slug %}<meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">{% endif %}
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon.png" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    {% if is_localized %}
     {% for l in site.data.languages %}
     <link rel="alternate" hreflang="{{ l.code }}" href="{{ site_base }}{{ l[page_id] }}">
     {% endfor %}
     <link rel="alternate" hreflang="x-default" href="{{ site_base }}{{ site.data.languages[0][page_id] }}">
+    {% endif %}
+    {% if page_id == "home" %}
+    {% assign app_description = page.hero.tagline | default: lang_info.description %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": {{ lang_info.app_name | jsonify }},
+      "description": {{ app_description | strip_html | jsonify }},
+      "operatingSystem": "iOS",
+      "applicationCategory": "LifestyleApplication",
+      "inLanguage": {{ page_lang | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "downloadUrl": {{ site.data.app.app_store_url | jsonify }},
+      "image": {{ og_image | jsonify }},
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    {% endif %}
     <style>
       .lang-switcher { margin-bottom: 1.5em; font-size: 0.9em; }
       .lang-switcher span, .lang-switcher a { margin-right: 0.6em; }
       .lang-switcher .lang-current { font-weight: 600; }
+      .hero { margin-bottom: 2.5em; }
+      .markdown-body .hero h1 { border-bottom: 0; margin-bottom: 0.2em; }
+      .hero-tagline { font-size: 1.2em; color: #57606a; }
+      .markdown-body .hero-benefits { padding-left: 1.2em; }
+      .hero-benefits li + li { margin-top: 0.4em; }
+      .hero-cta a { display: inline-block; }
+      .markdown-body .hero-cta img { display: block; height: 48px; width: auto; background: none; }
+      .hero-screens { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 2px 12px; -webkit-overflow-scrolling: touch; }
+      .hero-screens figure { flex: 0 0 min(220px, 62%); margin: 0; scroll-snap-align: start; }
+      .markdown-body .hero-screens img { display: block; width: 100%; height: auto; border-radius: 22px; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12); background: #f2f2f7; }
+      .hero-screens figcaption { margin-top: 0.6em; font-size: 0.85em; color: #57606a; text-align: center; }
     </style>
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
+      {% if is_localized %}
       <nav class="lang-switcher" aria-label="Language / Ngôn ngữ">
         {% for l in site.data.languages %}
           {% if l.code == page_lang %}<span class="lang-current">{{ l.name }}</span>
@@ -47,6 +89,7 @@
           {% endif %}
         {% endfor %}
       </nav>
+      {% endif %}
       {{ content }}
     </div>
   </body>

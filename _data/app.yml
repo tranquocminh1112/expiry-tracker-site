@@ -1,0 +1,6 @@
+# App Store facts shared by the layout and the landing-page hero.
+app_store_id: "6815566054"
+app_store_url: "https://apps.apple.com/app/id6815566054"
+# Apple's hosted "Download on the App Store" badge; append the locale from languages.yml `badge`.
+# (tools.applemarketingtools.com no longer resolves; this is Apple's current badge host.)
+badge_base: "https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/"

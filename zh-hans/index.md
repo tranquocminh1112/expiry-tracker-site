@@ -1,14 +1,31 @@
 ---
-title: 支持
+title: "iPhone 食品保质期提醒应用"
 layout: default
 lang: zh-Hans
 page_id: home
 permalink: /zh-hans/
+hero:
+  tagline: "记录家中食品的保质期，在为时已晚之前提醒你。"
+  benefits:
+    - "<strong>秒速添加：</strong>输入一行，例如 <code>方便面 7包 2027/3/22</code>，应用自动识别名称、数量和到期日。"
+    - "<strong>及时提醒：</strong>从到期前12个月起每月提醒，到期前30天、最后一周每天以及到期当天都会提醒，另有每周摘要。"
+    - "<strong>与家人共享：</strong>通过 iCloud 共享清单，可为每个人设置可编辑或仅查看。"
+    - "<strong>免费，无需账号：</strong>没有广告，没有跟踪，数据保存在你自己的 iCloud 中。"
+  badge_alt: "从 App Store 下载"
+  screens_label: "应用截图"
+  screens:
+    - file: 01-list.jpg
+      alt: "食品清单按已过期、即将过期、未过期分组，并显示剩余天数"
+      caption: "已过期、即将过期、未过期，一目了然"
+    - file: 02-menu.jpg
+      alt: "长按物品弹出的菜单：编辑、用掉 1、用完、丢弃、删除"
+      caption: "长按：用掉 1、用完、丢弃、撤销"
+    - file: 04-add.jpg
+      alt: "添加物品界面：名称、数量、单位和到期日"
+      caption: "添加物品，选择单位和日期"
 ---
 
-# 食品保质期提醒
-
-记录家中食品的保质期。应用会在到期前 12 个月起每月提醒一次,最后一周每天提醒,并发送每周摘要,还可通过 iCloud 与家人共享。
+{% include hero.html %}
 
 ## 常见问题
 

@@ -1,14 +1,31 @@
 ---
-title: Support
+title: "Food expiry reminder app for iPhone"
 layout: default
 lang: en
 page_id: home
 permalink: /en/
+hero:
+  tagline: "Keep track of the expiry dates of the food at home and get reminded before it's too late."
+  benefits:
+    - "<strong>Add items in seconds:</strong> type a line like <code>Noodles 7 packs 3/22/2027</code> and the app picks out the name, quantity and date."
+    - "<strong>Reminders at the right time:</strong> monthly from 12 months ahead, 30 days before, daily in the final week and on the day, plus a weekly digest."
+    - "<strong>Share with your household</strong> via iCloud, with edit or view-only access for each person."
+    - "<strong>Free, no account needed:</strong> no ads, no tracking. Your data stays in your own iCloud."
+  badge_alt: "Download on the App Store"
+  screens_label: "App screenshots"
+  screens:
+    - file: 01-list.jpg
+      alt: "Food list grouped into Expired, Expiring Soon and Good, with the days left for each item"
+      caption: "Expired, expiring soon, good: at a glance"
+    - file: 02-menu.jpg
+      alt: "Long-press menu on an item: Edit, Use 1, Used Up, Discard, Delete"
+      caption: "Long-press: Use 1, Used Up, Discard, Undo"
+    - file: 04-add.jpg
+      alt: "Add Item screen with name, quantity, unit and expiry date"
+      caption: "Add an item, pick the unit and date"
 ---
 
-# Use-By: Food Expiry Reminder
-
-Track the expiry dates of food at home. The app reminds you monthly starting 12 months before expiry, daily in the final week, sends a weekly digest, and can be shared with your household via iCloud.
+{% include hero.html %}
 
 ## Frequently asked questions
 

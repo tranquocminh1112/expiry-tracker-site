@@ -1,14 +1,31 @@
 ---
-title: 지원
+title: "유통기한을 알려 주는 iPhone 앱"
 layout: default
 lang: ko
 page_id: home
 permalink: /ko/
+hero:
+  tagline: "집에 있는 식품의 유통기한을 기록하고 늦기 전에 알려 줍니다."
+  benefits:
+    - "<strong>빠르게 추가:</strong> <code>라면 7봉지 2027/3/22</code>처럼 한 줄만 입력하면 이름, 수량, 기한을 자동으로 인식합니다."
+    - "<strong>놓치지 않는 알림:</strong> 12개월 전부터 매월, 30일 전, 마지막 주에는 매일, 그리고 당일에 알려 줍니다. 주간 요약도 받아 보세요."
+    - "<strong>가족과 공유:</strong> iCloud로 목록을 공유하고 사람마다 “편집 가능” 또는 “보기 전용”을 선택할 수 있습니다."
+    - "<strong>무료, 계정 필요 없음:</strong> 광고 없음, 추적 없음. 데이터는 본인의 iCloud에 저장됩니다."
+  badge_alt: "App Store에서 다운로드하기"
+  screens_label: "앱 스크린샷"
+  screens:
+    - file: 01-list.jpg
+      alt: "기한 지남, 기한 임박, 기한 내로 나뉜 식품 목록과 남은 일수"
+      caption: "기한 지남, 임박, 기한 내를 한눈에"
+    - file: 02-menu.jpg
+      alt: "항목을 길게 눌렀을 때 메뉴: 편집, 1개 사용, 다 씀, 버리기, 삭제"
+      caption: "길게 눌러 1개 사용, 버리기, 실행 취소"
+    - file: 04-add.jpg
+      alt: "항목 추가 화면: 이름, 수량, 단위, 기한"
+      caption: "항목 추가, 단위와 기한 선택"
 ---
 
-# 유통기한 알림
-
-집에 있는 식품의 유통기한을 기록하세요. 유통기한 12개월 전부터 매달, 마지막 주에는 매일 알림을 보내고 주간 요약도 제공합니다. iCloud를 통해 가족과 공유할 수 있습니다.
+{% include hero.html %}
 
 ## 자주 묻는 질문
 

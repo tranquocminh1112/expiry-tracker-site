@@ -1,14 +1,31 @@
 ---
-title: Assistance
+title: "App de rappel des dates de péremption pour iPhone"
 layout: default
 lang: fr
 page_id: home
 permalink: /fr/
+hero:
+  tagline: "Notez les dates de péremption des aliments de la maison, l'app vous prévient avant qu'il ne soit trop tard."
+  benefits:
+    - "<strong>Ajout en quelques secondes :</strong> tapez une ligne comme <code>Pâtes 7 paquets 22/3/2027</code>, l'app reconnaît le nom, la quantité et la date."
+    - "<strong>Des rappels au bon moment :</strong> chaque mois dès 12 mois avant, 30 jours avant, chaque jour la dernière semaine et le jour même, plus un résumé hebdomadaire."
+    - "<strong>Partage en famille</strong> via iCloud, avec modification ou lecture seule pour chaque personne."
+    - "<strong>Gratuite et sans compte :</strong> pas de publicité, pas de suivi. Vos données restent dans votre propre iCloud."
+  badge_alt: "Télécharger dans l'App Store"
+  screens_label: "Captures d'écran de l'app"
+  screens:
+    - file: 01-list.jpg
+      alt: "Liste des aliments classés en Périmé, Bientôt périmé et Encore bon, avec les jours restants"
+      caption: "Périmé, bientôt périmé, encore bon"
+    - file: 02-menu.jpg
+      alt: "Menu d'appui long sur un produit : modifier, utiliser 1, tout utilisé, jeter, supprimer"
+      caption: "Appui long : utiliser 1, jeter, annuler"
+    - file: 04-add.jpg
+      alt: "Écran d'ajout d'un produit : nom, quantité, unité et date de péremption"
+      caption: "Ajoutez un produit, son unité et sa date"
 ---
 
-# Rappel de péremption
-
-Suivez les dates de péremption des aliments à la maison. L'application rappelle chaque mois à partir de 12 mois avant la péremption, tous les jours durant la dernière semaine, envoie un résumé hebdomadaire et peut être partagée avec votre foyer via iCloud.
+{% include hero.html %}
 
 ## Questions fréquentes
 

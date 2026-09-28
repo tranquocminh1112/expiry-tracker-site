@@ -1,14 +1,31 @@
 ---
-title: Support
+title: "App zur Erinnerung an Verfallsdaten für iPhone"
 layout: default
 lang: de
 page_id: home
 permalink: /de/
+hero:
+  tagline: "Erfassen Sie die Haltbarkeit der Lebensmittel zu Hause, und die App erinnert Sie, bevor es zu spät ist."
+  benefits:
+    - "<strong>Blitzschnell hinzufügen:</strong> Tippen Sie eine Zeile wie <code>Nudeln 7 Packungen 22/3/2027</code>, und die App erkennt Name, Menge und Datum."
+    - "<strong>Erinnerungen zur richtigen Zeit:</strong> monatlich ab 12 Monaten vorher, 30 Tage vorher, täglich in der letzten Woche und am Tag selbst, dazu eine Wochenübersicht."
+    - "<strong>Mit der Familie teilen</strong> per iCloud, für jede Person mit Bearbeiten oder nur Ansehen."
+    - "<strong>Kostenlos, ohne Konto:</strong> keine Werbung, kein Tracking. Ihre Daten bleiben in Ihrem eigenen iCloud."
+  badge_alt: "Laden im App Store"
+  screens_label: "Bildschirmfotos der App"
+  screens:
+    - file: 01-list.jpg
+      alt: "Lebensmittelliste, gruppiert nach Abgelaufen, Läuft bald ab und Haltbar, mit den verbleibenden Tagen"
+      caption: "Abgelaufen, läuft bald ab, haltbar"
+    - file: 02-menu.jpg
+      alt: "Menü beim Gedrückthalten eines Artikels: Bearbeiten, 1 verbrauchen, Aufgebraucht, Entsorgen, Löschen"
+      caption: "Gedrückt halten: 1 verbrauchen, entsorgen, widerrufen"
+    - file: 04-add.jpg
+      alt: "Bildschirm zum Hinzufügen eines Artikels mit Name, Menge, Einheit und Ablaufdatum"
+      caption: "Artikel mit Einheit und Datum hinzufügen"
 ---
 
-# Erinnerung Verfallsdatum
-
-Behalten Sie die Verfallsdaten von Lebensmitteln zu Hause im Blick. Die App erinnert monatlich ab 12 Monate vor Ablauf, täglich in der letzten Woche, sendet eine wöchentliche Übersicht und kann über iCloud mit dem Haushalt geteilt werden.
+{% include hero.html %}
 
 ## Häufig gestellte Fragen
 

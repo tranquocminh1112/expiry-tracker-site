@@ -1,14 +1,31 @@
 ---
-title: Hỗ trợ
+title: "Ứng dụng nhắc hạn sử dụng đồ ăn cho iPhone"
 layout: default
 lang: vi
 page_id: home
 permalink: /
+hero:
+  tagline: "Ghi lại hạn sử dụng đồ ăn trong nhà, app nhắc bạn trước khi quá muộn."
+  benefits:
+    - "<strong>Thêm món trong vài giây:</strong> gõ một dòng như <code>Cá kho 7 gói 22/3/2027</code>, app tự hiểu tên, số lượng và hạn."
+    - "<strong>Nhắc đúng lúc:</strong> mỗi tháng từ 12 tháng trước, 30 ngày trước, mỗi ngày trong tuần cuối và đúng ngày hết hạn, kèm bản tin mỗi tuần."
+    - "<strong>Dùng chung với cả nhà</strong> qua iCloud, chọn cho từng người được sửa hoặc chỉ xem."
+    - "<strong>Miễn phí, không cần tài khoản:</strong> không quảng cáo, không theo dõi. Dữ liệu nằm trong iCloud của bạn."
+  badge_alt: "Tải về trên App Store"
+  screens_label: "Ảnh chụp màn hình ứng dụng"
+  screens:
+    - file: 01-list.jpg
+      alt: "Danh sách đồ ăn chia thành Đã hết hạn, Sắp hết hạn và Còn hạn, mỗi món ghi số ngày còn lại"
+      caption: "Hết hạn, sắp hết, còn hạn: nhìn là biết"
+    - file: 02-menu.jpg
+      alt: "Menu khi nhấn giữ một món: Sửa, Dùng 1, Dùng hết, Bỏ đi, Xoá"
+      caption: "Nhấn giữ: Dùng 1, Dùng hết, Bỏ đi, Hoàn tác"
+    - file: 04-add.jpg
+      alt: "Màn hình thêm món với tên, số lượng, đơn vị và hạn sử dụng"
+      caption: "Thêm món, chọn đơn vị và hạn"
 ---
 
-# Nhắc hạn đồ ăn
-
-Ghi lại hạn sử dụng đồ ăn trong nhà. App nhắc từ 12 tháng trước để kịp dùng dần, nhắc mỗi ngày trong tuần cuối, gửi bản tin mỗi tuần, và dùng chung được với cả nhà qua iCloud.
+{% include hero.html %}
 
 ## Câu hỏi thường gặp
 
@@ -32,6 +49,15 @@ Bấm vào tên danh sách ở đầu màn hình ("Nhà mình ⌄") để chuy�
 
 **Dữ liệu của tôi nằm ở đâu?**
 Trên iPhone và trong iCloud của chính bạn. Xem [Chính sách quyền riêng tư](privacy).
+
+## Hướng dẫn quản lý đồ ăn
+
+- [Cách đọc NSX, HSD và “sử dụng tốt nhất trước” trên nhãn](/huong-dan/cach-doc-han-su-dung-tren-nhan)
+- [Nước mắm, dầu ăn, sữa đặc đã mở để được bao lâu?](/huong-dan/do-kho-da-mo-de-duoc-bao-lau)
+- [Sắp xếp tủ lạnh, tủ bếp để bớt lãng phí đồ ăn](/huong-dan/sap-xep-tu-lanh-giam-lang-phi)
+- [Đồ ăn quá hạn: món nào còn dùng được, món nào phải bỏ?](/huong-dan/do-an-qua-han-co-dung-duoc-khong)
+
+[Xem tất cả hướng dẫn →](/huong-dan/)
 
 ## Liên hệ
 

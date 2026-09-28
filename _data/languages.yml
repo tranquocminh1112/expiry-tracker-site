@@ -1,52 +1,78 @@
 # Languages available on the support/privacy site.
 # `home` / `privacy` are the page permalinks for each language.
 # `app_name` (the App Store name in that language) and `description` fill <title> and the meta tags.
+# `slug` names the per-language files (assets/og/<slug>.png, assets/screens/<slug>/).
+# `badge` is the Apple badge locale; `badge_width` is its width at 48 px height (Apple's SVG is 40 px high).
 # Keep in sync with page front matter (`lang`, `page_id`) and site/_layouts/default.html.
 - code: vi
+  slug: vi
+  badge: vi-vn
+  badge_width: 144
   name: Tiếng Việt
   home: /
   privacy: /privacy
   app_name: "Nhắc hạn đồ ăn"
-  description: "Hỗ trợ và chính sách quyền riêng tư của Nhắc hạn đồ ăn, ứng dụng iOS ghi lại hạn sử dụng đồ ăn trong nhà, nhắc trước khi hết hạn và dùng chung với cả nhà qua iCloud."
+  description: "Nhắc hạn đồ ăn: ứng dụng iPhone miễn phí ghi lại hạn sử dụng đồ ăn trong nhà, nhắc trước khi hết hạn và dùng chung với cả nhà qua iCloud."
 - code: en
+  slug: en
+  badge: en-us
+  badge_width: 144
   name: English
   home: /en/
   privacy: /en/privacy
   app_name: "Use-By: Food Expiry Reminder"
-  description: "Support and privacy policy for Use-By: Food Expiry Reminder, the iOS app that tracks food expiry dates at home, reminds you before they expire and shares lists with your household via iCloud."
+  description: "Use-By: a free iPhone app that tracks food expiry dates at home, reminds you before they expire and shares one list with your household via iCloud."
 - code: ru
+  slug: ru
+  badge: ru-ru
+  badge_width: 144
   name: Русский
   home: /ru/
   privacy: /ru/privacy
   app_name: "Годен до: напоминание о сроке"
-  description: "Поддержка и политика конфиденциальности приложения «Годен до» для iOS: сроки годности продуктов дома, напоминания заранее и общий список для семьи через iCloud."
+  description: "«Годен до» — бесплатное приложение для iPhone: сроки годности продуктов дома, напоминания заранее и общий список для семьи через iCloud."
 - code: fr
+  slug: fr
+  badge: fr-fr
+  badge_width: 152
   name: Français
   home: /fr/
   privacy: /fr/privacy
   app_name: "Rappel de péremption"
-  description: "Assistance et politique de confidentialité de Rappel de péremption, l’app iOS qui suit les dates de péremption des aliments, vous prévient à temps et se partage en famille via iCloud."
+  description: "Rappel de péremption : app iPhone gratuite qui suit les dates de péremption des aliments, vous prévient à temps et se partage en famille via iCloud."
 - code: zh-Hans
+  slug: zh-hans
+  badge: zh-cn
+  badge_width: 131
   name: 简体中文
   home: /zh-hans/
   privacy: /zh-hans/privacy
   app_name: "食品保质期提醒"
-  description: "食品保质期提醒（iOS 应用）的支持与隐私政策：记录家中食品的保质期，到期前提醒，并通过 iCloud 与家人共享清单。"
+  description: "食品保质期提醒：免费的 iPhone 应用，记录家中食品保质期，到期前提醒，并通过 iCloud 与家人共享清单。"
 - code: de
+  slug: de
+  badge: de-de
+  badge_width: 144
   name: Deutsch
   home: /de/
   privacy: /de/privacy
   app_name: "Erinnerung Verfallsdatum"
-  description: "Support und Datenschutzerklärung für Erinnerung Verfallsdatum, die iOS-App, die Haltbarkeitsdaten zu Hause erfasst, rechtzeitig erinnert und Listen per iCloud mit der Familie teilt."
+  description: "Erinnerung Verfallsdatum: kostenlose iPhone-App, die Haltbarkeitsdaten zu Hause erfasst, rechtzeitig erinnert und Listen per iCloud mit der Familie teilt."
 - code: ja
+  slug: ja
+  badge: ja-jp
+  badge_width: 131
   name: 日本語
   home: /ja/
   privacy: /ja/privacy
   app_name: "賞味期限リマインダー：家族で共有"
-  description: "賞味期限リマインダー（iOS アプリ）のサポートとプライバシーポリシー。家にある食品の期限を記録し、期限前にお知らせ、iCloud で家族とリストを共有できます。"
+  description: "賞味期限リマインダー：家の食品の期限を記録し、期限前に通知、iCloud で家族とリストを共有できる無料の iPhone アプリ。"
 - code: ko
+  slug: ko
+  badge: ko-kr
+  badge_width: 156
   name: 한국어
   home: /ko/
   privacy: /ko/privacy
   app_name: "유통기한 알림"
-  description: "유통기한 알림(iOS 앱)의 지원 및 개인정보 처리방침: 집에 있는 식품의 유통기한을 기록하고, 기한 전에 알려 주며, iCloud로 가족과 목록을 공유합니다."
+  description: "유통기한 알림: 집에 있는 식품의 유통기한을 기록하고 기한 전에 알려 주며 iCloud로 가족과 목록을 공유하는 무료 iPhone 앱."

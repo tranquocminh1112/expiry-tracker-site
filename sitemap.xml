@@ -1,0 +1,29 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+{%- comment -%}
+Every HTML page in site.pages (Markdown or HTML source). Excludes /app/ (redirect to the App Store)
+and anything with `sitemap: false` in its front matter. Home/privacy pages list their translations
+as hreflang alternates from site/_data/languages.yml.
+{%- endcomment -%}
+{%- assign site_base = "https://expiry-tracker.minhtran.io.vn" %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for p in site.pages %}
+{%- assign ext = p.name | split: "." | last | downcase %}
+{%- unless ext == "md" or ext == "markdown" or ext == "html" %}{% continue %}{% endunless %}
+{%- if p.sitemap == false %}{% continue %}{% endif %}
+{%- if p.url == "/app/" or p.url == "/app" or p.url == "/app/index.html" %}{% continue %}{% endif %}
+{%- if p.url == "/404.html" %}{% continue %}{% endif %}
+  <url>
+    <loc>{{ site_base }}{{ p.url | xml_escape }}</loc>
+{%- if p.page_id == "home" or p.page_id == "privacy" %}
+{%- for l in site.data.languages %}
+    <xhtml:link rel="alternate" hreflang="{{ l.code }}" href="{{ site_base }}{{ l[p.page_id] }}"/>
+{%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site_base }}{{ site.data.languages[0][p.page_id] }}"/>
+{%- endif %}
+  </url>
+{%- endfor %}
+</urlset>
