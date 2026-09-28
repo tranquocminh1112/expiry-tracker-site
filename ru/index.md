@@ -35,4 +35,4 @@ permalink: /ru/
 
 ## Контакты
 
-Email: tranquocminh1112@gmail.com
+Email: support@minhtran.io.vn

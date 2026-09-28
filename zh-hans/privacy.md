@@ -56,4 +56,4 @@ _更新时间:2026 年 9 月 26 日_
 
 ## 联系方式
 
-tranquocminh1112@gmail.com
+support@minhtran.io.vn

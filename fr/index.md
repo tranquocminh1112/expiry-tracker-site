@@ -35,4 +35,4 @@ Sur votre iPhone et dans votre propre compte iCloud. Voir la [Politique de confi
 
 ## Contact
 
-E-mail : tranquocminh1112@gmail.com
+E-mail : support@minhtran.io.vn

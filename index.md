@@ -35,4 +35,4 @@ Trên iPhone và trong iCloud của chính bạn. Xem [Chính sách quyền riê
 
 ## Liên hệ
 
-Email: tranquocminh1112@gmail.com
+Email: support@minhtran.io.vn

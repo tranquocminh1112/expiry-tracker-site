@@ -35,4 +35,4 @@ permalink: /ko/
 
 ## 문의
 
-이메일: tranquocminh1112@gmail.com
+이메일: support@minhtran.io.vn

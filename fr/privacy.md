@@ -56,4 +56,4 @@ L'application ne s'adresse pas aux enfants de moins de 13 ans et ne collecte pas
 
 ## Contact
 
-tranquocminh1112@gmail.com
+support@minhtran.io.vn

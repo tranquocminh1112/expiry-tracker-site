@@ -54,7 +54,7 @@ Vào **Cài đặt → Xoá toàn bộ dữ liệu** để xoá mọi danh sách
 
 ## Liên hệ
 
-tranquocminh1112@gmail.com
+support@minhtran.io.vn
 
 ---
 

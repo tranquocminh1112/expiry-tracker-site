@@ -35,4 +35,4 @@ permalink: /ja/
 
 ## お問い合わせ
 
-メール:tranquocminh1112@gmail.com
+メール:support@minhtran.io.vn

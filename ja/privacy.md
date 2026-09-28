@@ -56,4 +56,4 @@ _更新日:2026年9月26日_
 
 ## お問い合わせ
 
-tranquocminh1112@gmail.com
+support@minhtran.io.vn

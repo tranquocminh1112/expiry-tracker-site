@@ -35,4 +35,4 @@ permalink: /zh-hans/
 
 ## 联系方式
 
-邮箱:tranquocminh1112@gmail.com
+邮箱:support@minhtran.io.vn

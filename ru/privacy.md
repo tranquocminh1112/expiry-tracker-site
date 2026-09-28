@@ -56,4 +56,4 @@ _Обновлено: 26 сентября 2026 г._
 
 ## Контакты
 
-tranquocminh1112@gmail.com
+support@minhtran.io.vn
