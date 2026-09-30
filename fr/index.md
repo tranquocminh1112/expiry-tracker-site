@@ -15,8 +15,8 @@ hero:
   screens_label: "Captures d'écran de l'app"
   screens:
     - file: 01-list.jpg
-      alt: "Liste des aliments classés en Périmé, Bientôt périmé et Encore bon, avec les jours restants"
-      caption: "Périmé, bientôt périmé, encore bon"
+      alt: "Liste des aliments classés en Périmé, Cette semaine et Plus tard, chacun avec un petit calendrier indiquant sa date"
+      caption: "Périmé, cette semaine, plus tard"
     - file: 02-menu.jpg
       alt: "Menu d'appui long sur un produit : modifier, utiliser 1, tout utilisé, jeter, supprimer"
       caption: "Appui long : utiliser 1, jeter, annuler"

@@ -15,8 +15,8 @@ hero:
   screens_label: "Ảnh chụp màn hình ứng dụng"
   screens:
     - file: 01-list.jpg
-      alt: "Danh sách đồ ăn chia thành Đã hết hạn, Sắp hết hạn và Còn hạn, mỗi món ghi số ngày còn lại"
-      caption: "Hết hạn, sắp hết, còn hạn: nhìn là biết"
+      alt: "Danh sách đồ ăn chia theo Quá hạn, Trong tuần và Còn lâu; mỗi món có một ô lịch ghi ngày hết hạn"
+      caption: "Quá hạn, trong tuần, còn lâu: nhìn là biết"
     - file: 02-menu.jpg
       alt: "Menu khi nhấn giữ một món: Sửa, Dùng 1, Dùng hết, Bỏ đi, Xoá"
       caption: "Nhấn giữ: Dùng 1, Dùng hết, Bỏ đi, Hoàn tác"

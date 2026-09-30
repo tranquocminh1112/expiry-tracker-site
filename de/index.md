@@ -15,8 +15,8 @@ hero:
   screens_label: "Bildschirmfotos der App"
   screens:
     - file: 01-list.jpg
-      alt: "Lebensmittelliste, gruppiert nach Abgelaufen, Läuft bald ab und Haltbar, mit den verbleibenden Tagen"
-      caption: "Abgelaufen, läuft bald ab, haltbar"
+      alt: "Lebensmittelliste, gruppiert nach Abgelaufen, Diese Woche und Später, jeder Artikel mit einem kleinen Kalender für sein Datum"
+      caption: "Abgelaufen, diese Woche, später"
     - file: 02-menu.jpg
       alt: "Menü beim Gedrückthalten eines Artikels: Bearbeiten, 1 verbrauchen, Aufgebraucht, Entsorgen, Löschen"
       caption: "Gedrückt halten: 1 verbrauchen, entsorgen, widerrufen"

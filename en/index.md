@@ -15,8 +15,8 @@ hero:
   screens_label: "App screenshots"
   screens:
     - file: 01-list.jpg
-      alt: "Food list grouped into Expired, Expiring Soon and Good, with the days left for each item"
-      caption: "Expired, expiring soon, good: at a glance"
+      alt: "Food list grouped into Expired, This Week and Later, each item with a small calendar tile showing its date"
+      caption: "Expired, this week, later: at a glance"
     - file: 02-menu.jpg
       alt: "Long-press menu on an item: Edit, Use 1, Used Up, Discard, Delete"
       caption: "Long-press: Use 1, Used Up, Discard, Undo"
