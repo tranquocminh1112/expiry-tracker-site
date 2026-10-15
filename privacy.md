@@ -6,22 +6,23 @@ page_id: privacy
 permalink: /privacy
 ---
 
-# Chính sách quyền riêng tư — Nhắc hạn đồ ăn
+# Chính sách quyền riêng tư — Nhắc hạn
 
-_Cập nhật: 26/9/2026_
+_Cập nhật: 15/10/2026_
 
-**Nhắc hạn đồ ăn** ("ứng dụng") giúp bạn ghi lại hạn sử dụng đồ ăn và nhắc bạn trước khi hết hạn. Ứng dụng được thiết kế để **nhà phát triển không thu thập và không xem được dữ liệu của bạn**.
+**Nhắc hạn** ("ứng dụng") giúp bạn ghi lại hạn của đồ ăn và những thứ khác trong nhà (thuốc, voucher, điểm thành viên, SIM, giấy tờ…) và nhắc bạn trước khi hết hạn. Ứng dụng được thiết kế để **nhà phát triển không thu thập và không xem được dữ liệu của bạn**.
 
 ## Dữ liệu ứng dụng lưu
 
-- Tên món, số lượng, đơn vị, hạn sử dụng, ghi chú, lịch sử sử dụng.
+- Tên món, nhóm, số lượng, đơn vị, hạn sử dụng, ghi chú, lịch sử sử dụng (kể cả món được chuyển từ danh sách nào).
+- Giá trị bạn ghi cho voucher, điểm thành viên hay SIM: số tiền hoặc số điểm, kèm loại tiền hoặc “điểm”.
 - Tên hoặc biệt danh bạn nhập, để hiện cạnh món bạn thêm hay dùng khi dùng chung danh sách. Khi bạn mời người khác, tên này đi kèm lời mời để họ biết ai mời.
 - Cài đặt nhắc (giờ nhắc) lưu trên máy của bạn.
 
 ## Dữ liệu được lưu ở đâu
 
 - Trên iPhone của bạn, và trong **iCloud của chính bạn** (Apple CloudKit) để đồng bộ giữa các thiết bị. Nhà phát triển không có quyền truy cập vào iCloud của bạn.
-- Tên món, ghi chú, tên danh sách và tên người thêm được **mã hoá** trên máy chủ iCloud bằng khoá thuộc tài khoản của bạn.
+- Tên món, ghi chú, tên danh sách, tên người thêm và số tiền hay số điểm bạn ghi được **mã hoá** trên máy chủ iCloud bằng khoá thuộc tài khoản của bạn.
 - Khi bạn **mời người khác dùng chung** một danh sách, bạn chọn cho từng người: **được sửa** hoặc **chỉ xem**. Họ thấy mọi món trong danh sách đó và tên của những người đã thêm hay dùng món. Bạn có thể ngừng chia sẻ hoặc gỡ người khác bất cứ lúc nào.
 
 ## Những gì ứng dụng không làm
@@ -29,6 +30,7 @@ _Cập nhật: 26/9/2026_
 - Không có tài khoản riêng, không đăng nhập ngoài iCloud.
 - Không quảng cáo, không theo dõi (tracking), không có công cụ phân tích hay thu thập dữ liệu của bên thứ ba.
 - Không bán hay chia sẻ dữ liệu với bất kỳ ai.
+- Gợi ý nhóm khi bạn gõ tên món chạy **ngay trên máy**: dựa vào những món đã có trong danh sách của bạn, một bảng từ khoá có sẵn trong app và, trên máy có Apple Intelligence, mô hình ngôn ngữ chạy trên máy của Apple. Tên món không được gửi tới nhà phát triển hay máy chủ nào.
 
 ## Báo lỗi
 

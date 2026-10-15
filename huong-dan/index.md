@@ -27,6 +27,6 @@ Vài bài viết ngắn giúp bạn ăn an toàn hơn và bớt phải bỏ đ�
 
 ---
 
-Các bài viết thuộc trang của **Nhắc hạn đồ ăn**, app miễn phí trên iPhone để ghi hạn dùng đồ ăn trong nhà và nhận nhắc trước khi hết hạn. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054) · [Trang hỗ trợ](/).
+Các bài viết thuộc trang của **Nhắc hạn**, app miễn phí trên iPhone để ghi hạn của đồ ăn và mọi thứ khác trong nhà (thuốc, voucher, điểm, SIM…) và nhận nhắc trước khi hết hạn. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054) · [Trang hỗ trợ](/).
 
 *Thông tin mang tính tham khảo chung, không thay thế tư vấn y tế.*

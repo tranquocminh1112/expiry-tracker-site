@@ -101,7 +101,7 @@ USDA đưa ra mốc hơi dài hơn cho một số loại. Để an toàn, bạn 
 
 ## Ghi ngày mở, để app nhắc giùm
 
-Khó nhất thường là nhớ chai nào mở từ bao giờ. Ngoài việc ghi ngày lên chai, bạn có thể dùng app miễn phí **Nhắc hạn đồ ăn** trên iPhone. Gõ một dòng như `Sữa đặc 1 hũ 3/10/2026` (ngày bạn muốn dùng hết), app sẽ nhắc trước khi đến hạn và gửi bản tin mỗi tuần. Cả nhà dùng chung danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
+Khó nhất thường là nhớ chai nào mở từ bao giờ. Ngoài việc ghi ngày lên chai, bạn có thể dùng app miễn phí **Nhắc hạn** trên iPhone. Gõ một dòng như `Sữa đặc 1 hũ 3/10/2026` (ngày bạn muốn dùng hết), app sẽ nhắc trước khi đến hạn và gửi bản tin mỗi tuần. Cả nhà dùng chung danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
 
 Xem thêm các bài khác trong [Hướng dẫn quản lý đồ ăn trong nhà](/huong-dan/).
 

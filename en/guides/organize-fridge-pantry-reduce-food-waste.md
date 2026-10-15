@@ -92,7 +92,7 @@ Dry goods last a long time, which is exactly why they get forgotten. Group simil
 
 ## A reminder for the things you can't see
 
-The hardest food to keep track of is the food you can't see: meat at the bottom of the freezer, a spare jar at the back of the cupboard. **[Use-By: Food Expiry Reminder](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you add an item in one line, such as `Chicken thighs 2 packs 11/20/2026`. It reminds you before the date and sends a weekly digest, which is handy to read before you shop. The household can share one list through iCloud, with no account and no ads.
+The hardest food to keep track of is the food you can't see: meat at the bottom of the freezer, a spare jar at the back of the cupboard. **[Use-By: Expiry Tracker](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you add an item in one line, such as `Chicken thighs 2 packs 11/20/2026`. It reminds you before the date and sends a weekly digest, which is handy to read before you shop. The household can share one list through iCloud, with no account and no ads.
 
 More articles: [Food storage and expiry guides](/en/guides/).
 

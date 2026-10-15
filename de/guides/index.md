@@ -26,7 +26,7 @@ Ein paar kurze Artikel, die Ihnen helfen, sicherer zu essen und weniger wegzuwer
 
 ---
 
-Die Artikel gehören zur Website von **Erinnerung Verfallsdatum**, einer kostenlosen iPhone-App, mit der Sie die Haltbarkeit Ihrer Lebensmittel zu Hause erfassen und rechtzeitig erinnert werden. [Im App Store laden](https://apps.apple.com/de/app/id6815566054) · [Zur App-Seite](/de/).
+Die Artikel gehören zur Website von **Erinnerung Verfallsdatum**, einer kostenlosen iPhone-App, mit der Sie die Haltbarkeit Ihrer Lebensmittel und weitere Fristen im Haushalt, etwa von Gutscheinen, Punkten und SIM-Karten, erfassen und rechtzeitig erinnert werden. [Im App Store laden](https://apps.apple.com/de/app/id6815566054) · [Zur App-Seite](/de/).
 
 *Die Informationen dienen der allgemeinen Orientierung und ersetzen keine medizinische Beratung.*
 

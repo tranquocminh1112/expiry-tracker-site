@@ -26,7 +26,7 @@ Quelques articles courts pour manger en sécurité et jeter moins. Chacun s'appu
 
 ---
 
-Ces guides sont publiés par **Rappel de péremption**, une app gratuite pour iPhone qui garde la trace des dates de péremption à la maison et vous prévient avant l'échéance. [Télécharger dans l'App Store](https://apps.apple.com/fr/app/id6815566054) · [Page d'accueil](/fr/).
+Ces guides sont publiés par **Rappel de péremption**, une app gratuite pour iPhone qui garde la trace des dates limites à la maison, des aliments aux bons d'achat, points et cartes SIM, et vous prévient avant l'échéance. [Télécharger dans l'App Store](https://apps.apple.com/fr/app/id6815566054) · [Page d'accueil](/fr/).
 
 *Informations générales, qui ne remplacent pas un avis médical.*
 

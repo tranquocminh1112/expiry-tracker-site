@@ -8,22 +8,23 @@ permalink: /de/privacy
 
 # Datenschutzerklärung — Erinnerung Verfallsdatum
 
-_Aktualisiert: 26. September 2026_
+_Aktualisiert: 15. Oktober 2026_
 
 > Diese Seite ist eine Übersetzung, die nur als Referenz dient. **Die [vietnamesische Version](/privacy) ist die verbindliche, rechtsgültige Fassung.** Bei Widersprüchen gilt der vietnamesische Text.
 
-**Erinnerung Verfallsdatum** („die App“) hilft Ihnen, Verfallsdaten von Lebensmitteln zu erfassen, und erinnert Sie rechtzeitig. Sie ist so konzipiert, dass **der Entwickler Ihre Daten weder sammelt noch einsehen kann**.
+**Erinnerung Verfallsdatum** („die App“) hilft Ihnen, Ablaufdaten von Lebensmitteln und anderen Dingen im Haushalt (Medikamente, Gutscheine, Treuepunkte, SIM-Karten, Dokumente …) zu erfassen, und erinnert Sie rechtzeitig. Sie ist so konzipiert, dass **der Entwickler Ihre Daten weder sammelt noch einsehen kann**.
 
 ## Was die App speichert
 
-- Produktnamen, Mengen, Einheiten, Verfallsdaten, Notizen, Verbrauchsverlauf.
+- Produktnamen, Kategorien, Mengen, Einheiten, Verfallsdaten, Notizen, Verbrauchsverlauf (auch, aus welcher Liste ein Artikel verschoben wurde).
+- Den Wert, den Sie für einen Gutschein, Treuepunkte oder eine SIM-Karte erfassen: einen Geldbetrag oder Punktestand mit Währung bzw. „Punkte“.
 - Den von Ihnen eingegebenen Namen oder Spitznamen, der neben Produkten angezeigt wird, die Sie in geteilten Listen hinzufügen oder verbrauchen. Wenn Sie jemanden einladen, wird dieser Name in die Einladung aufgenommen.
 - Erinnerungseinstellungen (Erinnerungszeit), gespeichert auf Ihrem Gerät.
 
 ## Wo die Daten gespeichert werden
 
 - Auf Ihrem iPhone und in **Ihrem eigenen iCloud-Konto** (Apple CloudKit) zur Synchronisation zwischen Ihren Geräten. Der Entwickler hat keinen Zugriff auf Ihr iCloud.
-- Produktnamen, Notizen, Listennamen und Namen der Ersteller werden auf iCloud-Servern mit Schlüsseln **verschlüsselt**, die zu Ihrem Konto gehören.
+- Produktnamen, Notizen, Listennamen, Namen der Ersteller und die von Ihnen erfassten Beträge oder Punkte werden auf iCloud-Servern mit Schlüsseln **verschlüsselt**, die zu Ihrem Konto gehören.
 - Wenn Sie **eine Liste teilen**, legen Sie für jede Person fest, ob sie **bearbeiten** oder nur **ansehen** darf. Sie sieht alles in dieser Liste sowie die Namen der Personen, die Produkte hinzugefügt oder verbraucht haben. Sie können die Freigabe jederzeit beenden oder Personen entfernen.
 
 ## Was die App nicht tut
@@ -31,6 +32,7 @@ _Aktualisiert: 26. September 2026_
 - Kein separates Konto, keine Anmeldung außer über iCloud.
 - Keine Werbung, kein Tracking, keine Analyse- oder Datensammel-Tools von Drittanbietern.
 - Kein Verkauf oder Weitergabe von Daten an Dritte.
+- Kategorievorschläge beim Eintippen eines Namens entstehen **auf Ihrem Gerät**: aus den Artikeln, die schon in Ihren Listen stehen, aus einer in die App eingebauten Stichworttabelle und, auf Geräten mit Apple Intelligence, aus Apples Sprachmodell, das auf dem Gerät läuft. Artikelnamen werden weder an den Entwickler noch an einen Server gesendet.
 
 ## Fehlerberichte
 

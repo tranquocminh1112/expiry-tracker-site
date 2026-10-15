@@ -26,6 +26,6 @@ A few short guides to help you eat safely and throw away less food. Each one cit
 
 ---
 
-These guides are published by **Use-By: Food Expiry Reminder**, a free iPhone app for tracking the expiry dates of the food at home and getting reminded before they pass. [Download on the App Store](https://apps.apple.com/app/id6815566054) · [App home page](/en/).
+These guides are published by **Use-By: Expiry Tracker**, a free iPhone app for tracking the expiry dates of the food at home, and of vouchers, points and SIM plans too, and getting reminded before they pass. [Download on the App Store](https://apps.apple.com/app/id6815566054) · [App home page](/en/).
 
 *General information only, not medical advice.*

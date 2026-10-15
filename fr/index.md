@@ -1,28 +1,30 @@
 ---
-title: "App de rappel des dates de péremption pour iPhone"
+title: "App de rappel des dates limites pour iPhone : aliments, médicaments, bons, points"
 layout: default
 lang: fr
 page_id: home
 permalink: /fr/
 hero:
-  tagline: "Notez les dates de péremption des aliments de la maison, l'app vous prévient avant qu'il ne soit trop tard."
+  tagline: "Notez les dates limites de tout ce qu'il y a à la maison, des aliments et médicaments aux bons d'achat, points de fidélité et cartes SIM. L'app vous prévient avant qu'il ne soit trop tard."
   benefits:
-    - "<strong>Ajout en quelques secondes :</strong> tapez une ligne comme <code>Pâtes 7 paquets 22/3/2027</code>, l'app reconnaît le nom, la quantité et la date."
-    - "<strong>Des rappels au bon moment :</strong> chaque mois dès 12 mois avant, 30 jours avant, chaque jour la dernière semaine et le jour même, plus un résumé hebdomadaire."
-    - "<strong>Partage en famille</strong> via iCloud, avec modification ou lecture seule pour chaque personne."
-    - "<strong>Gratuite et sans compte :</strong> pas de publicité, pas de suivi. Vos données restent dans votre propre iCloud."
+    - "<strong>Ajout en quelques secondes :</strong> tapez une ligne comme <code>Pâtes 7 paquets 22/3/2027</code> ou <code>Carte cadeau 20 € 20/12/2026</code>, l'app reconnaît le nom, la quantité, la valeur et la date, et propose une catégorie."
+    - "<strong>Une seule liste pour tout :</strong> aliments, maison, médicaments, bons d'achat, points de fidélité, SIM et forfaits, papiers, cartes, assurances, véhicules. Touchez une catégorie pour n'afficher qu'elle."
+    - "<strong>Les montants aussi :</strong> la valeur d'un bon, le solde d'une SIM, les points qui expirent. Les points de plusieurs périodes s'additionnent."
+    - "<strong>Des rappels au bon moment :</strong> pour les aliments, chaque mois dès 12 mois avant et chaque jour la dernière semaine ; chaque autre catégorie a son propre calendrier, par exemple 6 mois avant pour les papiers. Plus un résumé hebdomadaire."
+    - "<strong>Partage en famille</strong> via iCloud, avec modification ou lecture seule pour chaque personne. Déplacez des articles vers une autre liste ou fusionnez deux listes."
+    - "<strong>Gratuite et sans compte :</strong> pas de publicité, pas de suivi. Vos données restent dans votre propre iCloud, et les suggestions de catégorie se font sur votre iPhone."
   badge_alt: "Télécharger dans l'App Store"
   screens_label: "Captures d'écran de l'app"
   screens:
     - file: 01-list.jpg
-      alt: "Liste des aliments classés en Périmé, Cette semaine et Plus tard, chacun avec un petit calendrier indiquant sa date"
-      caption: "Périmé, cette semaine, plus tard"
-    - file: 02-menu.jpg
-      alt: "Menu d'appui long sur un produit : modifier, utiliser 1, tout utilisé, jeter, supprimer"
-      caption: "Appui long : utiliser 1, jeter, annuler"
-    - file: 04-add.jpg
-      alt: "Écran d'ajout d'un produit : nom, quantité, unité et date de péremption"
-      caption: "Ajoutez un produit, son unité et sa date"
+      alt: "Une liste avec aliments, bons, points de fidélité et SIM, filtrée par catégorie"
+      caption: "Tout à la maison, filtré par catégorie"
+    - file: 03-quickadd.jpg
+      alt: "L’ajout rapide lit le nom, la quantité, la valeur, la date et la catégorie dans une ligne"
+      caption: "Une ligne, la valeur est reconnue"
+    - file: 04-select.jpg
+      alt: "Plusieurs produits sélectionnés : changer de catégorie ou déplacer vers une autre liste"
+      caption: "Sélectionnez, déplacez vers une autre liste"
 ---
 
 {% include hero.html %}
@@ -46,6 +48,18 @@ Réglages → « Inviter des membres du foyer » → envoyez le lien par Message
 
 **Peut-on avoir plusieurs listes ?**
 Appuyez sur le nom de la liste en haut de l'écran (« Maison ⌄ ») pour changer de liste ou en créer une nouvelle. Chaque liste est partagée séparément avec des personnes différentes.
+
+**Peut-on filtrer la liste par catégorie ?**
+Quand une liste contient des articles d'au moins deux catégories, une rangée de catégories apparaît sous son nom, avec le nombre d'articles de chacune. Touchez-en une pour n'afficher qu'elle, ou « Tous » pour tout revoir. Pendant que vous tapez un nom, l'app propose une catégorie (« Est-ce … ? »). La suggestion se fait sur l'iPhone, le nom n'est envoyé nulle part.
+
+**Comment changer la catégorie de plusieurs articles à la fois ?**
+Appuyez sur le nom de la liste en haut de l'écran → « Sélectionner des produits », choisissez les articles, puis « Changer de catégorie… ». La catégorie suit le nom : les articles du même nom dans cette liste changent aussi.
+
+**Comment noter la valeur d'un bon, le solde d'une SIM ou des points ?**
+Pour les bons, les points de fidélité et les SIM et forfaits, ouvrez l'article et remplissez « Valeur », ou tapez-la directement à l'ajout : `Carte cadeau 20 € 20/12/2026`. Si vos points expirent en plusieurs fois, ajoutez chaque lot comme un article du même nom ; l'app affiche le « Total disponible ».
+
+**Peut-on déplacer des articles vers une autre liste ou fusionner des listes ?**
+Appuyez longuement sur un article → « Déplacer vers une liste… ». Pour toute une liste, appuyez sur son nom → « Fusionner avec une autre liste… » : tous les articles partent avec leur quantité et leur historique. L'app ne supprime jamais l'ancienne liste d'elle-même, elle vous le demande à part. Les proches restés sur une ancienne version continuent d'utiliser la liste partagée comme avant ; ils doivent mettre à jour pour voir les catégories et les valeurs.
 
 **Où sont stockées mes données ?**
 Sur votre iPhone et dans votre propre compte iCloud. Voir la [Politique de confidentialité](privacy).

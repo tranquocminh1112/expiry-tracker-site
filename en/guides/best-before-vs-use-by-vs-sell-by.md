@@ -73,7 +73,7 @@ At the federal level, the USDA and FDA asked for public input on date labeling i
 
 ## Keeping track without the guesswork
 
-If you'd like a reminder, **[Use-By: Food Expiry Reminder](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you add an item by typing one line, such as `Yogurt 4 pots 10/5/2026`. It reminds you before the date and sends a weekly digest, and your household can share one list through iCloud. There's no account and no ads.
+If you'd like a reminder, **[Use-By: Expiry Tracker](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you add an item by typing one line, such as `Yogurt 4 pots 10/5/2026`. It reminds you before the date and sends a weekly digest, and your household can share one list through iCloud. There's no account and no ads.
 
 More articles: [Food storage and expiry guides](/en/guides/).
 

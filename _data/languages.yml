@@ -11,8 +11,8 @@
   name: Tiếng Việt
   home: /
   privacy: /privacy
-  app_name: "Nhắc hạn đồ ăn"
-  description: "Nhắc hạn đồ ăn: ứng dụng iPhone miễn phí ghi lại hạn sử dụng đồ ăn trong nhà, nhắc trước khi hết hạn và dùng chung với cả nhà qua iCloud."
+  app_name: "Nhắc hạn"
+  description: "Nhắc hạn: ứng dụng iPhone miễn phí ghi hạn của đồ ăn, thuốc, voucher, điểm thành viên, SIM trong nhà, nhắc trước khi hết hạn và dùng chung với cả nhà qua iCloud."
 - code: en
   slug: en
   badge: en-us
@@ -20,8 +20,8 @@
   name: English
   home: /en/
   privacy: /en/privacy
-  app_name: "Use-By: Food Expiry Reminder"
-  description: "Use-By: a free iPhone app that tracks food expiry dates at home, reminds you before they expire and shares one list with your household via iCloud."
+  app_name: "Use-By: Expiry Tracker"
+  description: "Use-By: a free iPhone app that tracks expiry dates at home, from food and medicine to vouchers, points and SIM plans, reminds you in time and shares lists via iCloud."
 - code: ru
   slug: ru
   badge: ru-ru
@@ -30,7 +30,7 @@
   home: /ru/
   privacy: /ru/privacy
   app_name: "Годен до: напоминание о сроке"
-  description: "«Годен до» — бесплатное приложение для iPhone: сроки годности продуктов дома, напоминания заранее и общий список для семьи через iCloud."
+  description: "«Годен до» — бесплатное приложение для iPhone: сроки продуктов, лекарств, купонов, баллов и SIM-карт, напоминания заранее и общий список для семьи через iCloud."
 - code: fr
   slug: fr
   badge: fr-fr
@@ -39,7 +39,7 @@
   home: /fr/
   privacy: /fr/privacy
   app_name: "Rappel de péremption"
-  description: "Rappel de péremption : app iPhone gratuite qui suit les dates de péremption des aliments, vous prévient à temps et se partage en famille via iCloud."
+  description: "Rappel de péremption : app iPhone gratuite qui suit les dates limites des aliments, médicaments, bons, points et SIM, vous prévient à temps et se partage en famille via iCloud."
 - code: zh-Hans
   slug: zh-hans
   badge: zh-cn
@@ -47,8 +47,8 @@
   name: 简体中文
   home: /zh-hans/
   privacy: /zh-hans/privacy
-  app_name: "食品保质期提醒"
-  description: "食品保质期提醒：免费的 iPhone 应用，记录家中食品保质期，到期前提醒，并通过 iCloud 与家人共享清单。"
+  app_name: "保质期提醒：全家共享"
+  description: "保质期提醒：免费的 iPhone 应用，记录家中食品、药品、优惠券、积分和 SIM 卡的期限，到期前提醒，并通过 iCloud 与家人共享清单。"
 - code: de
   slug: de
   badge: de-de
@@ -57,7 +57,7 @@
   home: /de/
   privacy: /de/privacy
   app_name: "Erinnerung Verfallsdatum"
-  description: "Erinnerung Verfallsdatum: kostenlose iPhone-App, die Haltbarkeitsdaten zu Hause erfasst, rechtzeitig erinnert und Listen per iCloud mit der Familie teilt."
+  description: "Erinnerung Verfallsdatum: kostenlose iPhone-App für Ablaufdaten von Lebensmitteln, Medikamenten, Gutscheinen, Punkten und SIM-Karten, mit Erinnerungen und Familienlisten per iCloud."
 - code: ja
   slug: ja
   badge: ja-jp
@@ -65,8 +65,8 @@
   name: 日本語
   home: /ja/
   privacy: /ja/privacy
-  app_name: "賞味期限リマインダー：家族で共有"
-  description: "賞味期限リマインダー：家の食品の期限を記録し、期限前に通知、iCloud で家族とリストを共有できる無料の iPhone アプリ。"
+  app_name: "期限リマインダー：家族で共有"
+  description: "期限リマインダー：食品や薬、クーポン、ポイント、SIMなど家にあるものの期限を記録し、期限前に通知、iCloud で家族とリストを共有できる無料の iPhone アプリ。"
 - code: ko
   slug: ko
   badge: ko-kr
@@ -75,4 +75,4 @@
   home: /ko/
   privacy: /ko/privacy
   app_name: "유통기한 알림"
-  description: "유통기한 알림: 집에 있는 식품의 유통기한을 기록하고 기한 전에 알려 주며 iCloud로 가족과 목록을 공유하는 무료 iPhone 앱."
+  description: "유통기한 알림: 식품, 의약품, 쿠폰, 포인트, 유심 등 집에 있는 것들의 기한을 기록하고 기한 전에 알려 주며 iCloud로 가족과 목록을 공유하는 무료 iPhone 앱."

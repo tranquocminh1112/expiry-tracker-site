@@ -6,24 +6,25 @@ page_id: privacy
 permalink: /en/privacy
 ---
 
-# Privacy Policy — Use-By: Food Expiry Reminder
+# Privacy Policy — Use-By: Expiry Tracker
 
-_Updated: 26 September 2026_
+_Updated: 15 October 2026_
 
 > This page is a translation for reference only. **The [Vietnamese version](/privacy) is the authoritative, legally binding version.** If anything here conflicts with the Vietnamese text, the Vietnamese text prevails.
 
-**Use-By: Food Expiry Reminder** ("the app") helps you record food expiry dates and reminds you before they expire. It is designed so that **the developer does not collect and cannot see your data**.
+**Use-By: Expiry Tracker** ("the app") helps you record the expiry dates of food and other things at home (medicine, vouchers, loyalty points, SIM plans, documents…) and reminds you before they expire. It is designed so that **the developer does not collect and cannot see your data**.
 
 ## What the app stores
 
-- Item names, quantities, units, expiry dates, notes, usage history.
+- Item names, categories, quantities, units, expiry dates, notes, usage history (including which list an item was moved from).
+- The value you record for a voucher, loyalty points or a SIM: an amount of money or points, with its currency or “points”.
 - The name or nickname you enter, shown next to items you add or use in shared lists. When you invite someone, this name is included in the invitation so they know who invited them.
 - Reminder settings (reminder time), stored on your device.
 
 ## Where data is stored
 
 - On your iPhone, and in **your own iCloud account** (Apple CloudKit) to sync between your devices. The developer has no access to your iCloud.
-- Item names, notes, list names and the names of people who added items are **encrypted** on iCloud servers with keys belonging to your account.
+- Item names, notes, list names, the names of people who added items and the amounts or points you record are **encrypted** on iCloud servers with keys belonging to your account.
 - When you **share a list** with someone, you choose for each person whether they can **edit** or only **view** it. They see everything in that list and the names of people who added or used items. You can stop sharing or remove people at any time.
 
 ## What the app does not do
@@ -31,6 +32,7 @@ _Updated: 26 September 2026_
 - No separate account, no sign-in beyond iCloud.
 - No ads, no tracking, no third-party analytics or data-collection tools.
 - No selling or sharing of data with anyone.
+- Category suggestions while you type an item name run **on your device**: they use the items already in your lists, a keyword table built into the app and, on devices with Apple Intelligence, Apple's on-device language model. Item names are not sent to the developer or to any server.
 
 ## Bug reports
 

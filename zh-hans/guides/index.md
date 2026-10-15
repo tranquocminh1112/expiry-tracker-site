@@ -26,7 +26,7 @@ permalink: /zh-hans/guides/
 
 ---
 
-这些文章由**食品保质期提醒**提供。这是一款免费的 iPhone 应用，用来记录家中食品的到期日，并在到期前提醒你。[在 App Store 下载](https://apps.apple.com/app/id6815566054) · [应用主页](/zh-hans/)
+这些文章由**保质期提醒**提供。这是一款免费的 iPhone 应用，用来记录家中食品以及优惠券、积分、SIM 卡等的到期日，并在到期前提醒你。[在 App Store 下载](https://apps.apple.com/app/id6815566054) · [应用主页](/zh-hans/)
 
 *本页内容为一般性信息，不构成医疗建议。*
 

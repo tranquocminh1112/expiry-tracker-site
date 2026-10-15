@@ -91,7 +91,7 @@ When in doubt, throw it out.
 
 ## Let your phone remember the dates
 
-Nobody remembers when the soy sauce was opened. **[Use-By: Food Expiry Reminder](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you log an item in one line, for example `Peanut butter 1 jar 1/15/2027`, using the "use within" date you've worked out. It reminds you before the date and sends a weekly digest, and your household can share the list through iCloud. There's no account and no ads.
+Nobody remembers when the soy sauce was opened. **[Use-By: Expiry Tracker](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you log an item in one line, for example `Peanut butter 1 jar 1/15/2027`, using the "use within" date you've worked out. It reminds you before the date and sends a weekly digest, and your household can share the list through iCloud. There's no account and no ads.
 
 More articles: [Food storage and expiry guides](/en/guides/).
 

@@ -100,7 +100,7 @@ Most food poisoning passes on its own, but seek medical help for severe or lasti
 
 ## Prevention is easier
 
-The easiest fix is to eat things before their date. **[Use-By: Food Expiry Reminder](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you add an item by typing one line, like `Yogurt 4 pots 10/5/2026`. It reminds you before the date, daily in the final week and on the day itself, and sends a weekly digest. Your household can share the list through iCloud, with no account and no ads.
+The easiest fix is to eat things before their date. **[Use-By: Expiry Tracker](https://apps.apple.com/app/id6815566054)** is a free iPhone app where you add an item by typing one line, like `Yogurt 4 pots 10/5/2026`. It reminds you before the date, daily in the final week and on the day itself, and sends a weekly digest. Your household can share the list through iCloud, with no account and no ads.
 
 More articles: [Food storage and expiry guides](/en/guides/).
 

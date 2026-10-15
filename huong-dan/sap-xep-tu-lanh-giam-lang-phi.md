@@ -93,7 +93,7 @@ Thực đơn không cần cầu kỳ. Một cách dễ theo:
 
 ## Để điện thoại nhớ giùm
 
-Nhiều nhà thấy khó nhất là nhớ những thứ không nhìn thấy: thịt trong ngăn đá, thùng mì trên nóc tủ, chai dầu dự trữ. App miễn phí **Nhắc hạn đồ ăn** trên iPhone cho bạn ghi một món chỉ bằng một dòng, ví dụ `Cá kho 7 gói 22/3/2027`. App nhắc trước khi hết hạn và gửi bản tin mỗi tuần, rất hợp để xem trước buổi đi chợ. Cả nhà dùng chung một danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
+Nhiều nhà thấy khó nhất là nhớ những thứ không nhìn thấy: thịt trong ngăn đá, thùng mì trên nóc tủ, chai dầu dự trữ. App miễn phí **Nhắc hạn** trên iPhone cho bạn ghi một món chỉ bằng một dòng, ví dụ `Cá kho 7 gói 22/3/2027`. App nhắc trước khi hết hạn và gửi bản tin mỗi tuần, rất hợp để xem trước buổi đi chợ. Cả nhà dùng chung một danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
 
 Xem thêm các bài khác trong [Hướng dẫn quản lý đồ ăn trong nhà](/huong-dan/).
 

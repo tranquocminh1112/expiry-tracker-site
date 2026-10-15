@@ -1,28 +1,30 @@
 ---
-title: "App zur Erinnerung an Verfallsdaten für iPhone"
+title: "App zur Erinnerung an Ablaufdaten für iPhone: Lebensmittel, Medikamente, Gutscheine, Punkte"
 layout: default
 lang: de
 page_id: home
 permalink: /de/
 hero:
-  tagline: "Erfassen Sie die Haltbarkeit der Lebensmittel zu Hause, und die App erinnert Sie, bevor es zu spät ist."
+  tagline: "Erfassen Sie die Ablaufdaten von allem im Haushalt, von Lebensmitteln und Medikamenten bis zu Gutscheinen, Treuepunkten und SIM-Karten. Die App erinnert Sie, bevor es zu spät ist."
   benefits:
-    - "<strong>Blitzschnell hinzufügen:</strong> Tippen Sie eine Zeile wie <code>Nudeln 7 Packungen 22/3/2027</code>, und die App erkennt Name, Menge und Datum."
-    - "<strong>Erinnerungen zur richtigen Zeit:</strong> monatlich ab 12 Monaten vorher, 30 Tage vorher, täglich in der letzten Woche und am Tag selbst, dazu eine Wochenübersicht."
-    - "<strong>Mit der Familie teilen</strong> per iCloud, für jede Person mit Bearbeiten oder nur Ansehen."
-    - "<strong>Kostenlos, ohne Konto:</strong> keine Werbung, kein Tracking. Ihre Daten bleiben in Ihrem eigenen iCloud."
+    - "<strong>Blitzschnell hinzufügen:</strong> Tippen Sie eine Zeile wie <code>Nudeln 7 Packungen 22/3/2027</code> oder <code>Gutschein 20 € 20.12.2026</code>, und die App erkennt Name, Menge, Wert und Datum und schlägt eine Kategorie vor."
+    - "<strong>Eine Liste für alles:</strong> Lebensmittel, Haushalt, Medikamente, Gutscheine, Treuepunkte, SIM & Tarife, Dokumente, Karten, Versicherungen, Fahrzeuge. Ein Tipp auf eine Kategorie zeigt nur deren Artikel."
+    - "<strong>Auch Werte:</strong> den Wert eines Gutscheins, das SIM-Guthaben, verfallende Punkte. Punkte aus mehreren Zeiträumen ergeben eine Summe."
+    - "<strong>Erinnerungen zur richtigen Zeit:</strong> bei Lebensmitteln monatlich ab 12 Monaten vorher und täglich in der letzten Woche; jede andere Kategorie hat ihren eigenen Rhythmus, etwa Dokumente ab 6 Monaten vorher. Dazu eine Wochenübersicht."
+    - "<strong>Mit der Familie teilen</strong> per iCloud, für jede Person mit Bearbeiten oder nur Ansehen. Artikel in eine andere Liste verschieben oder zwei Listen zusammenführen."
+    - "<strong>Kostenlos, ohne Konto:</strong> keine Werbung, kein Tracking. Ihre Daten bleiben in Ihrem eigenen iCloud, und Kategorievorschläge entstehen direkt auf dem iPhone."
   badge_alt: "Laden im App Store"
   screens_label: "Bildschirmfotos der App"
   screens:
     - file: 01-list.jpg
-      alt: "Lebensmittelliste, gruppiert nach Abgelaufen, Diese Woche und Später, jeder Artikel mit einem kleinen Kalender für sein Datum"
-      caption: "Abgelaufen, diese Woche, später"
-    - file: 02-menu.jpg
-      alt: "Menü beim Gedrückthalten eines Artikels: Bearbeiten, 1 verbrauchen, Aufgebraucht, Entsorgen, Löschen"
-      caption: "Gedrückt halten: 1 verbrauchen, entsorgen, widerrufen"
-    - file: 04-add.jpg
-      alt: "Bildschirm zum Hinzufügen eines Artikels mit Name, Menge, Einheit und Ablaufdatum"
-      caption: "Artikel mit Einheit und Datum hinzufügen"
+      alt: "Eine Liste mit Lebensmitteln, Gutscheinen, Treuepunkten und SIM, mit Kategoriefilter"
+      caption: "Alles im Haushalt, nach Kategorie gefiltert"
+    - file: 03-quickadd.jpg
+      alt: "Die Schnelleingabe erkennt Name, Menge, Wert, Datum und Kategorie aus einer Zeile"
+      caption: "Eine Zeile, der Wert wird erkannt"
+    - file: 04-select.jpg
+      alt: "Mehrere Artikel ausgewählt: Kategorie ändern oder in eine andere Liste verschieben"
+      caption: "Mehrere auswählen und verschieben"
 ---
 
 {% include hero.html %}
@@ -46,6 +48,18 @@ Einstellungen → „Haushaltsmitglieder einladen“ → Link per Nachrichten od
 
 **Kann ich mehrere Listen haben?**
 Tippen Sie oben am Bildschirm auf den Listennamen („Zuhause ⌄“), um die Liste zu wechseln oder eine neue zu erstellen. Jede Liste wird separat mit unterschiedlichen Personen geteilt.
+
+**Kann ich die Liste nach Kategorie filtern?**
+Enthält eine Liste Artikel aus mindestens zwei Kategorien, erscheint unter dem Listennamen eine Leiste mit den Kategorien und ihrer Anzahl. Tippen Sie auf eine Kategorie, um nur diese zu sehen, oder auf „Alle“, um wieder alles zu sehen. Beim Eintippen eines Namens schlägt die App eine Kategorie vor. Der Vorschlag entsteht auf dem iPhone, der Name wird nirgendwohin gesendet.
+
+**Wie ändere ich die Kategorie mehrerer Artikel auf einmal?**
+Tippen Sie oben am Bildschirm auf den Listennamen → „Artikel auswählen“, wählen Sie die Artikel und tippen Sie auf „Kategorie ändern …“. Die Kategorie gehört zum Namen: Gleichnamige Artikel in dieser Liste ändern sich mit.
+
+**Wie erfasse ich Gutscheinwert, SIM-Guthaben oder Punkte?**
+Bei Gutscheinen, Treuepunkten und SIM & Tarifen öffnen Sie den Artikel und füllen „Wert“ aus, oder Sie tippen den Wert gleich beim Hinzufügen mit: `Gutschein 20 € 20.12.2026`. Verfallen Punkte in mehreren Teilen, legen Sie jeden Teil als Artikel mit demselben Namen an; die App zeigt die Summe unter „Insgesamt“.
+
+**Kann ich Artikel in eine andere Liste verschieben oder Listen zusammenführen?**
+Halten Sie einen Artikel gedrückt → „In Liste verschieben …“. Für eine ganze Liste tippen Sie auf ihren Namen → „Mit anderer Liste zusammenführen …“: Alle Artikel ziehen mit Menge und Verlauf um. Die alte Liste löscht die App nie von selbst, sie fragt Sie gesondert. Wer noch eine ältere Version nutzt, kann die geteilte Liste weiter wie bisher verwenden; um Kategorien und Werte zu sehen, ist das Update nötig.
 
 **Wo werden meine Daten gespeichert?**
 Auf Ihrem iPhone und in Ihrem eigenen iCloud-Konto. Siehe [Datenschutzerklärung](privacy).

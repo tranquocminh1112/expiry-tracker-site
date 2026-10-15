@@ -83,7 +83,7 @@ Nếu bị nôn, tiêu chảy kéo dài, sốt cao, đi ngoài ra máu, hoặc c
 
 ## Phòng hơn chữa: đừng để đồ quá hạn
 
-Cách tốt nhất là dùng hết trước khi phải đắn đo. App miễn phí **Nhắc hạn đồ ăn** trên iPhone giúp bạn ghi hạn bằng một dòng, ví dụ `Sữa chua 4 hộp 5/10/2026`. App nhắc trước khi hết hạn và mỗi ngày trong tuần cuối, kèm bản tin mỗi tuần để biết món nào cần ăn trước. Cả nhà dùng chung danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
+Cách tốt nhất là dùng hết trước khi phải đắn đo. App miễn phí **Nhắc hạn** trên iPhone giúp bạn ghi hạn bằng một dòng, ví dụ `Sữa chua 4 hộp 5/10/2026`. App nhắc trước khi hết hạn và mỗi ngày trong tuần cuối, kèm bản tin mỗi tuần để biết món nào cần ăn trước. Cả nhà dùng chung danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
 
 Xem thêm các bài khác trong [Hướng dẫn quản lý đồ ăn trong nhà](/huong-dan/).
 

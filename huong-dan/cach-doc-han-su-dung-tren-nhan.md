@@ -76,7 +76,7 @@ Mọi mốc ngày trên nhãn được tính cho sản phẩm **chưa mở** và
 
 ## Ghi lại hạn dùng để không phải nhớ
 
-Đọc đúng nhãn mới là một nửa; nửa còn lại là nhớ món nào sắp hết hạn. Nếu bạn dùng iPhone, app miễn phí **Nhắc hạn đồ ăn** giúp ghi nhanh bằng một dòng như `Sữa đặc 2 lon 15/3/2027`. App nhắc trước khi hết hạn và gửi bản tin mỗi tuần. Cả nhà dùng chung một danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
+Đọc đúng nhãn mới là một nửa; nửa còn lại là nhớ món nào sắp hết hạn. Nếu bạn dùng iPhone, app miễn phí **Nhắc hạn** giúp ghi nhanh bằng một dòng như `Sữa đặc 2 lon 15/3/2027`. App nhắc trước khi hết hạn và gửi bản tin mỗi tuần. Cả nhà dùng chung một danh sách qua iCloud, không cần tài khoản, không quảng cáo. [Tải trên App Store](https://apps.apple.com/vn/app/id6815566054).
 
 Xem thêm các bài khác trong [Hướng dẫn quản lý đồ ăn trong nhà](/huong-dan/).
 
