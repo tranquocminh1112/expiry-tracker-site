@@ -9,6 +9,8 @@ hero:
   benefits:
     - "<strong>Blitzschnell hinzufügen:</strong> Tippen Sie eine Zeile wie <code>Nudeln 7 Packungen 22/3/2027</code> oder <code>Gutschein 20 € 20.12.2026</code>, und die App erkennt Name, Menge, Wert und Datum und schlägt eine Kategorie vor."
     - "<strong>Eine Liste für alles:</strong> Lebensmittel, Haushalt, Medikamente, Gutscheine, Treuepunkte, SIM & Tarife, Dokumente, Karten, Versicherungen, Fahrzeuge. Ein Tipp auf eine Kategorie zeigt nur deren Artikel."
+    - "<strong>Auch Dinge ohne Ablaufdatum:</strong> die Kategorie „Gegenstände“ für Regenjacken, Helme, Werkzeug … Artikel mit „Kein Ablaufdatum“ lösen nie eine Erinnerung aus und stehen gesammelt am Ende der Liste."
+    - "<strong>Wissen, wo alles liegt:</strong> Tippen Sie <code>Regenjacke 3 Stück @Keller</code>, um einen Ort zu notieren, zeigen Sie die Liste nach Ort an und suchen Sie mit <code>@Regal</code>. Mit einem Foto erkennen Sie Artikel auf einen Blick."
     - "<strong>Auch Werte:</strong> den Wert eines Gutscheins, das SIM-Guthaben, verfallende Punkte. Punkte aus mehreren Zeiträumen ergeben eine Summe."
     - "<strong>Erinnerungen zur richtigen Zeit:</strong> bei Lebensmitteln monatlich ab 12 Monaten vorher und täglich in der letzten Woche; jede andere Kategorie hat ihren eigenen Rhythmus, etwa Dokumente ab 6 Monaten vorher. Dazu eine Wochenübersicht."
     - "<strong>Mit der Familie teilen</strong> per iCloud, für jede Person mit Bearbeiten oder nur Ansehen. Artikel in eine andere Liste verschieben oder zwei Listen zusammenführen."
@@ -19,12 +21,12 @@ hero:
     - file: 01-list.jpg
       alt: "Eine Liste mit Lebensmitteln, Gutscheinen, Treuepunkten und SIM, mit Kategoriefilter"
       caption: "Alles im Haushalt, nach Kategorie gefiltert"
-    - file: 03-quickadd.jpg
-      alt: "Die Schnelleingabe erkennt Name, Menge, Wert, Datum und Kategorie aus einer Zeile"
-      caption: "Eine Zeile, der Wert wird erkannt"
-    - file: 04-select.jpg
-      alt: "Mehrere Artikel ausgewählt: Kategorie ändern oder in eine andere Liste verschieben"
-      caption: "Mehrere auswählen und verschieben"
+    - file: 06-places.jpg
+      alt: "Die Liste „Nach Ort“: Kühlschrank, Schrank, Garage, jeweils mit den Artikeln dort"
+      caption: "Nach Ort: wissen, wo alles liegt"
+    - file: 07-belonging.jpg
+      alt: "Ein Gegenstand ohne Ablaufdatum mit Foto, Menge und den Verbrauchen-Tasten"
+      caption: "Gegenstände ohne Ablaufdatum, mit Foto"
 ---
 
 {% include hero.html %}
@@ -60,6 +62,18 @@ Bei Gutscheinen, Treuepunkten und SIM & Tarifen öffnen Sie den Artikel und fül
 
 **Kann ich Artikel in eine andere Liste verschieben oder Listen zusammenführen?**
 Halten Sie einen Artikel gedrückt → „In Liste verschieben …“. Für eine ganze Liste tippen Sie auf ihren Namen → „Mit anderer Liste zusammenführen …“: Alle Artikel ziehen mit Menge und Verlauf um. Die alte Liste löscht die App nie von selbst, sie fragt Sie gesondert. Wer noch eine ältere Version nutzt, kann die geteilte Liste weiter wie bisher verwenden; um Kategorien und Werte zu sehen, ist das Update nötig.
+
+**Wie erfasse ich Dinge ohne Ablaufdatum, etwa eine Regenjacke oder einen Helm?**
+Wählen Sie die Kategorie „Gegenstände“: „Kein Ablaufdatum“ ist schon eingeschaltet, es gibt keine Erinnerungen, und der Artikel steht in der letzten Gruppe der Liste (ist sie eingeklappt, tippen Sie darauf). In der Schnelleingabe tippen Sie `Regenjacke 3 Stück @Keller`; schlägt die App „Gegenstände“ vor, tippen Sie auf „Ändern“. Hat etwas eine Garantie, schalten Sie „Kein Ablaufdatum“ aus und tragen das Garantieende ein. „Kein Ablaufdatum“ gibt es auch in den anderen Kategorien.
+
+**Was ist ein Ort, und wie benutze ich @?**
+Der Ort hält fest, wo ein Artikel aufbewahrt wird: Kühlschrank, Vorratsschrank, Keller … In der Schnelleingabe tippen Sie @ und den Ort nach dem Namen: `Nudeln 7 Packungen 22/3/2027 @Vorratsschrank`. Die App schlägt bereits verwendete Orte vor und merkt sich den letzten Ort eines gleichnamigen Artikels. Im Formular zum Hinzufügen oder in den Details eines Artikels füllen Sie „Ort“ aus. Sobald Artikel einen Ort haben, wählen Sie oben in der Liste „Nach Ort“, um sie nach Orten gruppiert zu sehen, oder tippen Sie `@Keller` in die Suche, um nur das zu sehen, was dort liegt.
+
+**Wo werden Fotos gespeichert, und belegen sie iCloud-Speicher?**
+Jeder Artikel kann ein Foto haben: Tippen Sie im Formular zum Hinzufügen oder in den Details auf „Foto hinzufügen“ und nehmen Sie ein Foto auf oder wählen Sie eines aus Ihrer Mediathek. Vor dem Speichern wird das Foto auf dem iPhone verkleinert (meist höchstens 150 KB) und die Ortsangaben werden entfernt. Fotos liegen im iCloud der Person, die die Liste erstellt hat, und zählen zu deren iCloud-Speicher; alle, die die Liste teilen, sehen sie. Fotos sind möglicherweise nicht Ende-zu-Ende-verschlüsselt wie Artikelnamen, siehe [Datenschutzerklärung](privacy).
+
+**Wie benenne ich Orte um oder führe sie zusammen?**
+Unter Einstellungen → „Orte“ sehen Sie alle Orte mit der Anzahl ihrer Artikel. Tippen Sie auf „Umbenennen“, um einen Namen zu korrigieren, oder auf „Zusammenführen mit …“, um zwei Orte zu einem zu machen. In der Ansicht „Nach Ort“ bietet die Überschrift jedes Orts dieselben Möglichkeiten. Das Umbenennen gilt auch für alle, die die Liste teilen. Tippen Sie einen Ort, der einem vorhandenen sehr ähnelt, fragt die App nach, damit keine Doppelten entstehen.
 
 **Wo werden meine Daten gespeichert?**
 Auf Ihrem iPhone und in Ihrem eigenen iCloud-Konto. Siehe [Datenschutzerklärung](privacy).
